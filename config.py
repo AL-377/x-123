@@ -39,7 +39,7 @@ REDIS_PORT = int(os.getenv("REDIS_PORT", default="6379"))
 MYSQL_HOST = os.getenv("MYSQL_HOST", default="127.0.0.1")
 MYSQL_PORT = int(os.getenv("MYSQL_PORT", default="3306"))
 MYSQL_USER = os.getenv("MYSQL_USER", default="root")
-MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", default="mysql123")
+MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", default="root")
 MYSQL_DATABASE = os.getenv("MYSQL_DATABASE", default="xface")
 MYSQL_PERSON_TABLE = os.getenv("MYSQL_PERSON_TABLE", default="person")
 # table where ops will be run on

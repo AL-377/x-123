@@ -81,3 +81,16 @@ INFO:     | 2023-10-06 21:45:43 | mysql_api | Person avatar with id: 0 retrieved
 [32mINFO[0m:     | 2023-10-15 02:00:14 | app |  save avatar -> volumes/avatars/github.jpeg
 [32mINFO[0m:     | 2023-10-15 02:02:41 | app | save avatar -> volumes/avatars/bg.jpeg
 [32mINFO[0m:     | 2023-10-15 02:08:30 | app | save avatar -> volumes/avatars/avatar.png
+[32mINFO[0m:     | 2023-10-15 06:21:48 | milvus_api | Collection faces created.
+[32mINFO[0m:     | 2023-10-15 06:21:48 | milvus_api | Indexing the Collection...
+[32mINFO[0m:     | 2023-10-15 06:21:48 | milvus_api | Collection faces indexed.
+[32mINFO[0m:     | 2023-10-15 06:24:28 | app | cache face -> app/.data/p1.jpeg
+[33mWARNING[0m:  | 2023-10-15 06:24:28 | mysql_api | mysql record with id: 1 does not exist.
+[32mINFO[0m:     | 2023-10-15 06:25:24 | service | Vector for person with id: 1 inserted into milvus db.
+[32mINFO[0m:     | 2023-10-15 06:27:12 | app | save avatar -> volumes/avatars/avatar.png
+[33mWARNING[0m:  | 2023-10-15 06:27:12 | mysql_api | mysql record with id: 1 does not exist.
+[32mINFO[0m:     | 2023-10-15 06:27:12 | mysql_api | record insertion waiting to be commit to mysql db.
+[32mINFO[0m:     | 2023-10-15 06:28:17 | app | cache face -> app/.data/ps1.jpeg
+[32mINFO[0m:     | 2023-10-15 06:28:17 | app | recognizing img :app/.data/ps1.jpeg
+[32mINFO[0m:     | 2023-10-15 06:28:21 | mysql_api | Person avatar with id: 1 retrieved from mysql db.
+[32mINFO[0m:     | 2023-10-15 06:28:22 | app | recognizing faces fininshed!
