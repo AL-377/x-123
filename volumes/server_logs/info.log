@@ -78,3 +78,6 @@ INFO:     | 2023-10-06 21:44:45 | mysql_api | record insertion waiting to be com
 INFO:     | 2023-10-06 21:45:31 | milvus_api | Collection faces present already.
 INFO:     | 2023-10-06 21:45:40 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
 INFO:     | 2023-10-06 21:45:43 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+[32mINFO[0m:     | 2023-10-15 02:00:14 | app |  save avatar -> volumes/avatars/github.jpeg
+[32mINFO[0m:     | 2023-10-15 02:02:41 | app | save avatar -> volumes/avatars/bg.jpeg
+[32mINFO[0m:     | 2023-10-15 02:08:30 | app | save avatar -> volumes/avatars/avatar.png

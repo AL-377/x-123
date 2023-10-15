@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 """
 configurations and env variables load
 """
@@ -9,16 +11,13 @@ from entity.logging import LogConfig
 SERVER_IP = os.getenv("SERVER_IP",default="127.0.0.1")
 SERVER_PORT = os.getenv("SERVER_PORT",default="8000")
 
-# save avatars
-DOWNLOAD_AVATAR_PATH = os.getenv("DOWNLOAD_AVATAR_PATH",default="/tests/")
-
 # save directories
+DOWNLOAD_AVATAR_PATH = os.getenv("DOWNLOAD_AVATAR_PATH",default="volumes/avatars")
 DOWNLOAD_CACHE_PATH = os.getenv('DOWNLOAD_CACHE_PATH', default="app/.data")
-DOWNLOAD_IMAGE_PATH = os.getenv('DOWNLOAD_IMAGE_PATH', default="volumes/person_images")
 LOG_STORAGE_PATH = os.getenv("LOG_STORAGE_PATH", default="volumes/server_logs")
 
+os.makedirs(DOWNLOAD_AVATAR_PATH,exist_ok=True)
 os.makedirs(DOWNLOAD_CACHE_PATH, exist_ok=True)
-os.makedirs(DOWNLOAD_IMAGE_PATH, exist_ok=True)
 os.makedirs(LOG_STORAGE_PATH, exist_ok=True)
 
 # logging conf

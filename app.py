@@ -9,16 +9,15 @@
 """
 
 from fastapi import FastAPI, Response, status, File, UploadFile
+from fastapi.responses import FileResponse
 from entity.model import RegResult, RecResult
 from config import *
 import os
+import logging
 
 app = FastAPI()
 
-
-def record(content: str):
-    with open("log.txt", "a") as f:
-        f.write(content+"\n")
+logger = logging.getLogger('app')
 
 
 @app.get("/")
@@ -26,26 +25,29 @@ def read_root():
     return {"Hello": "World"}
 
 
-@app.post("/register/face/{user_id}", response_model=RegResult, status_code=200)
-async def register_face(user_id: int, img: UploadFile, response: Response):
+@app.get("/avatars/{filename}")
+async def get_avatar(filename: str):
+    file_path = f"{DOWNLOAD_AVATAR_PATH}/{filename}"
+    return FileResponse(file_path)
+
+@app.post("/register/avatar/{user_id}", response_model=RegResult, status_code=200)
+async def register_avatar(user_id: int, img: UploadFile, response: Response):
     res = {"status": "Success", "user_id": user_id}
     try:
-        img_name = img.filename.encode("utf-8")
-        record(img_name.decode("utf-8"))
-        save_path = os.path.join(DOWNLOAD_AVATAR_PATH, img_name.decode("utf-8"))
+        img_name = img.filename
+        save_path = os.path.join(DOWNLOAD_AVATAR_PATH, img_name)
         contents = await img.read()
         with open(save_path, "wb") as f:
             f.write(contents)
+        logger.info(f"save avatar -> {save_path}")
     except Exception as e:
-        record(str(e))
+        logger.error(f"error register avatar: {e}")
         response.status_code = 404
         res["status"] = "Fail"
     else:
-        res["img_url"] = "".join([SERVER_IP, SERVER_PORT, save_path])
+        res["img_url"] = SERVER_IP+":"+SERVER_PORT+"/avatars/"+img_name
+        # save user and avatar into mysql
+
+
     return res
-
-
-@app.post("/uploadfile/")
-async def create_upload_file(file: UploadFile):
-    return {"filename": file.filename, "content_type": file.content_type}
 

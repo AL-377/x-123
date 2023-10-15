@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 """
 @Project ：x-123 
-@File    ：main.py
+@File    ：service.py
 @Author  ：Aidan Lew
 @Date    ：2023/10/6 7:47 
 """
@@ -137,6 +137,35 @@ def unregister_person(
     return {"status": "success",
             "message": f"person record with id {person_id} unregistered from database"}
 
+
+def register_person_avatar(model_name:str,avatar_path:str,person_data:dict,table: str = MYSQL_CUR_TABLE):
+    """
+    Get the user_info and avatar path,insert it into our db
+    """
+    # uniq person id from user input
+    person_id = person_data["id"]
+    # check if face already exists in redis/mysql
+    if get_registered_person(person_id, table)["status"] == "success":
+        # if so, update the avatar
+        return update_avatar_url_in_sql(mysql_conn, table, person_id, avatar_path)
+    # first time register must set the avatar
+    try:
+        person_data["avatar_url"] = avatar_path
+        # insert record into mysql
+        # commit is set to False so that the op is atomic with milvus & redis
+        mysql_insert_resp = insert_person_data_into_sql(
+            mysql_conn, table, person_data, commit=False)
+        if mysql_insert_resp["status"] == "failed":
+            raise pymysql.Error
+
+        # commit mysql record insertion(commit after all things done)
+        mysql_conn.commit()
+        
+    except (pymysql.Error) as excep:
+        msg = f"person with id {person_id} couldn't be registered into database "
+        print("error: %s: %s", excep, msg)
+        return {"status": "failed",
+                "message": msg}
 
 def register_person(
         model_name: str,
