@@ -326,6 +326,7 @@ def recognize_person(
         mode="recognize")
 
     if pred_dict["status"] == 0 and not pred_dict["face_detections"]:
+        logger.info(f"No faces were detected in the image {file_path}")
         return {"status": "failed",
                 "message": "No faces were detected in the image"}
     if pred_dict["status"] < 0:
@@ -351,11 +352,11 @@ def recognize_person(
         face_dist = results[0].distances[0]
 
         person_id = results[0][0].entity.get("person_id")
-        print(f"img distance with person: {person_id} is {face_dist}")
+        logger.info(f"img distance with person: {person_id} is {face_dist}")
         if face_dist > face_dist_threshold:
-            print("no similar faces were found in the database")
+            logger.info("no similar faces were found in the database")
         else:
-            print(f"detected face matches id: {person_id}")
+            logger.info(f"detected face matches id: {person_id}")
             person_avatar_info = get_person_avatar(person_id, table)
 
             if person_avatar_info["status"] == "success":

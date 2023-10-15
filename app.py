@@ -13,7 +13,7 @@ from entity.model import RegFacResult, RegAvaResult,RecResult
 from config import (DOWNLOAD_AVATAR_PATH,DOWNLOAD_CACHE_PATH,
                     SERVER_IP,SERVER_PORT,FACE_DET_THRESHOLD,
                     FACE_DIST_THRESHOLD)
-from service import register_person_avatar,register_person_face,recognize_person
+from service import register_person_avatar,register_person_face,recognize_person,unregister_person
 import os
 import logging
 
@@ -75,9 +75,15 @@ async def register_avatar(user_id: int, img: UploadFile, response: Response):
         db_res = register_person_avatar({"id":user_id},save_path)
         res["status"] = db_res["status"]
         if res["status"] == "success":
-            res["img_url"] = SERVER_IP+":"+SERVER_PORT+"/avatars/"+img_name
+            res["img_url"] = SERVER_IP+"/avatars/"+img_name
     return res
 
+@app.post("/unregister/{user_id}",status_code=200)
+async def unregister_person_by_id(user_id:int,response: Response):
+    res = unregister_person(user_id)
+    if res["status"]!="success":
+        response.status_code = 404
+    return res
 
 @app.post("/recognize/face/{user_id}",response_model=RecResult,status_code=200)
 async def recognize_faces(user_id: int, img: UploadFile, response: Response):
