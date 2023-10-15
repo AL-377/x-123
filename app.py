@@ -7,7 +7,6 @@
 @Date    ：2023/10/14 10:00
 @Documentation  : http://127.0.0.1:8000/docs
 """
-
 from fastapi import FastAPI, Response, status, File, UploadFile
 from fastapi.responses import FileResponse
 from entity.model import RegFacResult, RegAvaResult,RecResult
@@ -26,7 +25,6 @@ logger = logging.getLogger('app')
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
-
 
 @app.get("/avatars/{filename}")
 async def get_avatar(filename: str):

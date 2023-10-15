@@ -29,7 +29,7 @@ class AvatarPair(BaseModel):
     pos: the position at lt_x,lt_y,ld_x,ld_y,rt_x,rt_y,rd_x,rd_y
     """
     avatar_url:str
-    pos:dict[int]
+    pos:list[int]
 
 
 class RecResult(BaseModel):
@@ -39,8 +39,7 @@ class RecResult(BaseModel):
     """
     status: str
     user_id: int
-    img_url: str = ""
-    avatar_pairs: dict[AvatarPair]
+    avatar_pairs: list[AvatarPair]
 
 
 class PersonModel(BaseModel):
