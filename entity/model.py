@@ -5,15 +5,31 @@ from datetime import date
 from enum import Enum
 from pydantic import BaseModel
 
-
-class RegResult(BaseModel):
+class RegFacResult(BaseModel):
     """
-    The response for register data model
+    The response for register the person face
+    """
+    status: str
+    user_id: int
+ 
+
+class RegAvaResult(BaseModel):
+    """
+    The response for register the avatar
     img_url: str the url of the avatar img
     """
     status: str
     user_id: int
     img_url: str = ""
+
+
+class AvatarPair(BaseModel):
+    """
+    avatar_url: avatar url
+    pos: the position at lt_x,lt_y,ld_x,ld_y,rt_x,rt_y,rd_x,rd_y
+    """
+    avatar_url:str
+    pos:dict[int]
 
 
 class RecResult(BaseModel):
@@ -24,6 +40,7 @@ class RecResult(BaseModel):
     status: str
     user_id: int
     img_url: str = ""
+    avatar_pairs: dict[AvatarPair]
 
 
 class PersonModel(BaseModel):

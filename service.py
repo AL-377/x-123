@@ -18,9 +18,7 @@ from dao.mysql import (insert_person_data_into_sql,
                        select_person_avatar_from_sql_with_id)
 from pymysql.cursors import DictCursor
 
-from config import (DOWNLOAD_IMAGE_PATH,
-                    REDIS_HOST, REDIS_PORT,
-                    MYSQL_HOST, MYSQL_PORT,
+from config import (MYSQL_HOST, MYSQL_PORT,
                     MYSQL_USER, MYSQL_PASSWORD,
                     MYSQL_DATABASE, MYSQL_CUR_TABLE,
                     MILVUS_HOST, MILVUS_PORT,
@@ -32,6 +30,11 @@ from server.inference import preprocess, postprocess, run_inference
 from server.utils.image import draw_bbox_on_image
 import numpy as np
 import cv2
+import logging
+
+# logger
+logger = logging.getLogger('service')
+
 
 # Connect to MySQL
 mysql_conn = pymysql.connect(
@@ -138,13 +141,16 @@ def unregister_person(
             "message": f"person record with id {person_id} unregistered from database"}
 
 
-def register_person_avatar(model_name:str,avatar_path:str,person_data:dict,table: str = MYSQL_CUR_TABLE):
+def register_person_avatar(
+        person_data:dict,
+        avatar_path:str,
+        table: str = MYSQL_CUR_TABLE):
     """
     Get the user_info and avatar path,insert it into our db
     """
     # uniq person id from user input
     person_id = person_data["id"]
-    # check if face already exists in redis/mysql
+    # check if person already exists in redis/mysql
     if get_registered_person(person_id, table)["status"] == "success":
         # if so, update the avatar
         return update_avatar_url_in_sql(mysql_conn, table, person_id, avatar_path)
@@ -160,12 +166,75 @@ def register_person_avatar(model_name:str,avatar_path:str,person_data:dict,table
 
         # commit mysql record insertion(commit after all things done)
         mysql_conn.commit()
+        return {"status":"success"}
         
     except (pymysql.Error) as excep:
         msg = f"person with id {person_id} couldn't be registered into database "
         print("error: %s: %s", excep, msg)
+        return {"status":"failed"}
+
+
+def register_person_face(
+        person_data: dict,
+        face_path: str,
+        face_det_threshold: float,
+        model_name: str = models[0],
+        table: str = MYSQL_CUR_TABLE) -> dict:
+    """
+    Detects faces in image from the file_path and
+    saves the face feature vector & the related person_data dict.
+    """
+    # uniq person id from user input
+    person_id = person_data["id"]
+    # check if this person id already exists in redis/mysql
+    existed =  get_registered_person(person_id, table)["status"] == "success"
+        
+    # extract the feature and get the recognition
+    pred_dict = run_inference(
+        face_path,
+        face_feat_model=model_name,
+        face_det_thres=face_det_threshold,
+        face_count_thres = 1,
+        mode="register")
+
+    if pred_dict["status"] == 0 and not pred_dict["face_detections"]:
+        return {"status": "failed",
+                "message": "No faces were detected in the image"}
+    if pred_dict["status"] < 0:
+        pred_dict["status"] = "failed"
+        return pred_dict
+    
+    try:
+
+        # insert face_vector into milvus milvus_collec_conn
+        face_vector = pred_dict["face_feats"][0]
+        data = [[person_id], [face_vector]]
+
+        # if id exsited need to replace the origin face_vector,so delete firstly
+        # tip: the vector may not exists for the avatar is more fast
+        if existed:
+            try:
+                expr = f'person_id in [{person_id}]'
+                milvus_collec_conn.delete(expr)
+            except Exception:
+                pass
+        # then insert the new vector
+        milvus_collec_conn.insert(data)
+        logger.info(f"Vector for person with id: %s inserted into milvus db.",
+              person_id)
+        # After final entity is inserted, it is best to call flush to have no growing segments left in memory
+        # flushes collection data from memory to storage
+        milvus_collec_conn.flush()
+
+        return {"status":"success"}
+    
+    except (MilvusException) as excep:
+        msg = f"person with id {person_id} couldn't be registered into database "
+        print("error: %s: %s", excep, msg)
         return {"status": "failed",
                 "message": msg}
+
+
 
 def register_person(
         model_name: str,
@@ -240,10 +309,10 @@ def register_person(
 
 
 def recognize_person(
-        model_name: str,
         file_path: str,
         face_det_threshold: float,
         face_dist_threshold: float = 0.1,
+        model_name: str = models[0],
         table: str = MYSQL_CUR_TABLE) -> dict:
     """
     Detects faces in image from the file_path and finds the most similar face vector
@@ -378,7 +447,7 @@ def draw_face_position(img_path, save_path, pairs):
     cv2.imwrite(save_path, orig_cv2_img)
 
 
-if __name__ == '__main__':
-    # test_unregister()
-    # test_register()
-    test_recognize()
+# if __name__ == '__main__':
+#     # test_unregister()
+#     # test_register()
+#     # test_recognize()

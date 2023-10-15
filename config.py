@@ -56,3 +56,8 @@ FACE_COLLECTION_NAME = 'faces'
 FACE_INDEX_NLIST = 4096
 # nprobe specific to IVF denotes num of closest buckets/clusters looked into per file
 FACE_SEARCH_NPROBE = 2056
+
+# face conf
+FACE_DET_THRESHOLD = 0.5
+FACE_DIST_THRESHOLD = 0.1
+
