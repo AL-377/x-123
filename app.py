@@ -9,6 +9,7 @@
 """
 from fastapi import FastAPI, Response, status, File, UploadFile
 from fastapi.responses import FileResponse
+from fastapi.middleware.cors import CORSMiddleware
 from entity.model import RegFacResult, RegAvaResult,RecResult
 from config import (DOWNLOAD_AVATAR_PATH,DOWNLOAD_CACHE_PATH,
                     SERVER_IP,SERVER_PORT,FACE_DET_THRESHOLD,
@@ -18,6 +19,14 @@ import os
 import logging
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 logger = logging.getLogger('app')
 
@@ -36,14 +45,16 @@ async def register_face(user_id: int, img: UploadFile, response: Response):
     res = {"status": "success", "user_id": user_id}
     try:
         img_name = img.filename
+        if ".jpg" not in img_name:
+            img_name += ".jpg"
         # just cache the face and delete later
         cache_path = os.path.join(DOWNLOAD_CACHE_PATH, img_name)
         contents = await img.read()
         with open(cache_path, "wb") as f:
             f.write(contents)
-        logger.info(f"cache face -> {cache_path}")
+        logger.info(f"cache face to register-> {cache_path}")
     except Exception as e:
-        logger.error(f"error cache face: {e}")
+        logger.error(f"error cache face to register: {e}")
         response.status_code = 404
         res["status"] = "failed"
     else:
@@ -61,6 +72,8 @@ async def register_avatar(user_id: int, img: UploadFile, response: Response):
     res = {"status": "success", "user_id": user_id,"img_url":""}
     try:
         img_name = img.filename
+        if ".jpg" not in img_name:
+            img_name += ".jpg"
         save_path = os.path.join(DOWNLOAD_AVATAR_PATH, img_name)
         contents = await img.read()
         with open(save_path, "wb") as f:
@@ -75,7 +88,7 @@ async def register_avatar(user_id: int, img: UploadFile, response: Response):
         db_res = register_person_avatar({"id":user_id},save_path)
         res["status"] = db_res["status"]
         if res["status"] == "success":
-            res["img_url"] = SERVER_IP+"/avatars/"+img_name
+            res["img_url"] = "/avatars/"+img_name
     return res
 
 @app.post("/unregister/{user_id}",status_code=200)
@@ -91,18 +104,20 @@ async def recognize_faces(user_id: int, img: UploadFile, response: Response):
 
     try:
         img_name = img.filename
+        if ".jpg" not in img_name:
+            img_name += ".jpg"
         cache_path = os.path.join(DOWNLOAD_CACHE_PATH, img_name)
         contents = await img.read()
         with open(cache_path, "wb") as f:
             f.write(contents)
-        logger.info(f"cache face -> {cache_path}")
+        logger.info(f"cache face to recognize-> {cache_path}")
     except Exception as e:
-        logger.error(f"error cache face: {e}")
+        logger.error(f"error cache face to recognize: {e}")
         response.status_code = 404
         res["status"] = "failed"
     else:
         # recognize the person
-        logger.info(f"recognizing img :{cache_path}")
+        logger.info(f"recognizing img {cache_path}")
 
         rec_res = recognize_person(
                 file_path=cache_path,
@@ -115,7 +130,8 @@ async def recognize_faces(user_id: int, img: UploadFile, response: Response):
         # if has avatar
         if "avatars_pair" in rec_res.keys():
             for ap in rec_res["avatars_pair"]:
-                a_p = {"avatar_url":ap["avatar"],"pos":[]}
+                filename = ap["avatar"].split("/")[-1]
+                a_p = {"avatar_url":"/avatars/"+filename,"pos":[]}
                 x,y,w,h = ap["face_pos"]['x'],ap["face_pos"]['y'],ap["face_pos"]['w'],ap["face_pos"]['h']
                 x1, y1 = x, y
                 x2, y2 = x + w, y

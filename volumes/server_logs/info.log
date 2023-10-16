@@ -134,3 +134,161 @@ INFO:     | 2023-10-15 08:51:06 | service | no similar faces were found in the d
 INFO:     | 2023-10-15 08:51:06 | service | img distance with person: 1 is 0.21403013169765472
 INFO:     | 2023-10-15 08:51:06 | service | no similar faces were found in the database
 INFO:     | 2023-10-15 08:51:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 02:02:44 | app | cache face -> app/.data/blob
+ERROR:    | 2023-10-16 02:02:44 | mysql_api | (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))"): mysql record retrieval failed
+INFO:     | 2023-10-16 02:11:18 | app | cache face -> app/.data/blob
+ERROR:    | 2023-10-16 02:11:18 | mysql_api | (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))"): mysql record retrieval failed
+INFO:     | 2023-10-16 05:17:47 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:47 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:47 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:26:46 | app | cache face -> app/.data/blob
+INFO:     | 2023-10-16 05:26:46 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:41:24 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-16 05:41:24 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-16 05:41:36 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-16 05:42:29 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-16 05:42:29 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-16 05:46:20 | mysql_api | record deletion waiting to be commited to mysql db.
+INFO:     | 2023-10-16 05:49:03 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 05:52:03 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-16 05:52:03 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-16 05:52:16 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-16 05:58:52 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-16 05:58:52 | app | recognizing img :app/.data/blob.jpg
+INFO:     | 2023-10-16 05:59:04 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-16 05:59:04 | app | recognizing faces fininshed!
+INFO:     | 2023-10-16 05:59:39 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-16 05:59:39 | app | recognizing img :app/.data/blob.jpg
+INFO:     | 2023-10-16 05:59:43 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:03:45 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-16 06:03:45 | app | recognizing img :app/.data/blob.jpg
+INFO:     | 2023-10-16 06:03:59 | service | img distance with person: 2 is 0.06886312365531921
+INFO:     | 2023-10-16 06:03:59 | service | detected face matches id: 2
+INFO:     | 2023-10-16 06:03:59 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-16 06:03:59 | app | recognizing faces fininshed!
+INFO:     | 2023-10-16 06:05:02 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-16 06:05:02 | app | recognizing img :app/.data/blob.jpg
+INFO:     | 2023-10-16 06:05:14 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-16 06:05:14 | app | recognizing faces fininshed!
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:23:05 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-16 06:23:05 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-16 06:23:16 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-16 06:23:16 | app | recognizing faces fininshed!
+INFO:     | 2023-10-16 06:28:18 | app | cache face to recognize-> app/.data/blog.jpg
+INFO:     | 2023-10-16 06:28:18 | app | recognizing img app/.data/blog.jpg
+INFO:     | 2023-10-16 06:28:30 | service | No faces were detected in the image app/.data/blog.jpg
+INFO:     | 2023-10-16 06:28:30 | app | recognizing faces fininshed!
+INFO:     | 2023-10-16 06:30:16 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-16 06:30:16 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-16 06:30:19 | service | img distance with person: 2 is 0.034283414483070374
+INFO:     | 2023-10-16 06:30:19 | service | detected face matches id: 2
+INFO:     | 2023-10-16 06:30:19 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-16 06:30:19 | app | recognizing faces fininshed!
+INFO:     | 2023-10-16 06:33:01 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:01 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:01 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.

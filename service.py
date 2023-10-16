@@ -124,7 +124,7 @@ def unregister_person(
         # unregister from milvus
         expr = f'person_id in [{person_id}]'
         milvus_collec_conn.delete(expr)
-        print("Vector for person with id: %s deleted from milvus db.",
+        logger.info("Vector for person with id: %s deleted from milvus db.",
               person_id)
 
         # clear redis cache
@@ -188,22 +188,26 @@ def register_person_face(
     person_id = person_data["id"]
     # check if this person id already exists in redis/mysql
     existed =  get_registered_person(person_id, table)["status"] == "success"
-        
-    # extract the feature and get the recognition
-    pred_dict = run_inference(
-        face_path,
-        face_feat_model=model_name,
-        face_det_thres=face_det_threshold,
-        face_count_thres = 1,
-        mode="register")
-
-    if pred_dict["status"] == 0 and not pred_dict["face_detections"]:
+    try:
+        # extract the feature and get the recognition
+        pred_dict = run_inference(
+            face_path,
+            face_feat_model=model_name,
+            face_det_thres=face_det_threshold,
+            face_count_thres = 1,
+            mode="register")
+    except Exception as e:
+        logger.error(f"inference img error:{e}")
         return {"status": "failed",
-                "message": "No faces were detected in the image"}
-    if pred_dict["status"] < 0:
-        pred_dict["status"] = "failed"
-        return pred_dict
-    
+                "message": "Failed in dealing with img"}
+    else:
+        if pred_dict["status"] == 0 and not pred_dict["face_detections"]:
+            return {"status": "failed",
+                    "message": "No faces were detected in the image"}
+        if pred_dict["status"] < 0:
+            pred_dict["status"] = "failed"
+            return pred_dict
+
     try:
 
         # insert face_vector into milvus milvus_collec_conn
@@ -230,7 +234,7 @@ def register_person_face(
     
     except (MilvusException) as excep:
         msg = f"person with id {person_id} couldn't be registered into database "
-        print("error: %s: %s", excep, msg)
+        logger.error("error: %s: %s", excep, msg)
         return {"status": "failed",
                 "message": msg}
 
