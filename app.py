@@ -133,11 +133,11 @@ async def recognize_faces(user_id: int, img: UploadFile, response: Response):
                 filename = ap["avatar"].split("/")[-1]
                 a_p = {"avatar_url":"/avatars/"+filename,"pos":[]}
                 x,y,w,h = ap["face_pos"]['x'],ap["face_pos"]['y'],ap["face_pos"]['w'],ap["face_pos"]['h']
-                x1, y1 = x, y
-                x2, y2 = x + w, y
-                x3, y3 = x, y + h
-                x4, y4 = x + w, y + h
-                pos = [x1,y1,x2,y2,x3,y3,x4,y4]
+                # x1, y1 = x, y
+                # x2, y2 = x + w, y
+                # x3, y3 = x, y + h
+                # x4, y4 = x + w, y + h
+                pos = [x,y,w,h]
                 a_p["pos"] = pos
                 res["avatar_pairs"].append(a_p) 
     finally:
