@@ -13,6 +13,7 @@ def update_avatar_url_in_sql(mysql_conn, mysql_tb, person_id, avatar_url, commit
     Note: the transaction must be committed after if commit is False
     """
     query = f"UPDATE {mysql_tb} SET avatar_url = %s WHERE id = %s"
+    logger.info(query)
     values = (avatar_url, person_id)
     try:
         with mysql_conn.cursor() as cursor:
@@ -38,6 +39,7 @@ def insert_person_data_into_sql(mysql_conn, mysql_tb, person_data: dict, commit:
              f" ({', '.join(person_data.keys())})" +
              f" VALUES ({', '.join(['%s'] * len(person_data))})").replace("'", '')
     print(f"mysql command: {query}")
+    logger.info(query)
     values = tuple(person_data.values())
     try:
         with mysql_conn.cursor() as cursor:
@@ -61,6 +63,7 @@ def select_person_avatar_from_sql_with_id(mysql_conn, mysql_tb, person_id: int) 
     Query mysql db to get  person avatar using the uniq person_id
     """
     query = f"SELECT avatar_url FROM {mysql_tb} WHERE id = %s"
+    logger.info(query)
     values = person_id
     try:
         with mysql_conn.cursor() as cursor:
@@ -86,6 +89,8 @@ def select_person_data_from_sql_with_id(mysql_conn, mysql_tb, person_id: int) ->
     Query mysql db to get full person data using the uniq person_id
     """
     query = f"SELECT * FROM {mysql_tb} WHERE id = %s"
+    logger.info(query)
+
     values = person_id
     try:
         with mysql_conn.cursor() as cursor:
@@ -110,6 +115,8 @@ def select_all_person_data_from_sql(mysql_conn, mysql_tb) -> dict:
     Query mysql db to get all person data
     """
     query = f"SELECT * FROM {mysql_tb}"
+    logger.info(query)
+
     try:
         with mysql_conn.cursor() as cursor:
             cursor.execute(query)

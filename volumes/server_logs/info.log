@@ -1,604 +1,412 @@
-[32mINFO[0m:     | 2023-10-15 08:23:19 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:56 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:56 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:56 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:56 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:25:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:21 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:21 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:29:22 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:34:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:44 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:44 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:44 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:44 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:44 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:45 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:41:57 | mysql_api | record deletion waiting to be commited to mysql db.
-INFO:     | 2023-10-15 08:42:34 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:34 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:34 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:34 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:34 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:34 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:34 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:42:35 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:43:04 | milvus_api | Collection faces present already.
-ERROR:    | 2023-10-15 08:43:20 | mysql_api | Person with id: 1 does not exist in mysql db.
-INFO:     | 2023-10-15 08:43:51 | app | cache face -> app/.data/p1.jpeg
-WARNING:  | 2023-10-15 08:43:51 | mysql_api | mysql record with id: 1 does not exist.
-INFO:     | 2023-10-15 08:44:03 | service | Vector for person with id: 1 inserted into milvus db.
-INFO:     | 2023-10-15 08:45:09 | app | save avatar -> volumes/avatars/avatar.png
-WARNING:  | 2023-10-15 08:45:09 | mysql_api | mysql record with id: 1 does not exist.
-INFO:     | 2023-10-15 08:45:09 | mysql_api | record insertion waiting to be commit to mysql db.
-INFO:     | 2023-10-15 08:46:38 | app | cache face -> app/.data/ps1.jpeg
-INFO:     | 2023-10-15 08:46:38 | app | recognizing img :app/.data/ps1.jpeg
-INFO:     | 2023-10-15 08:46:50 | app | recognizing faces fininshed!
-INFO:     | 2023-10-15 08:50:40 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:40 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:40 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:40 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:41 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:50:52 | app | cache face -> app/.data/ps1.jpeg
-INFO:     | 2023-10-15 08:50:52 | app | recognizing img :app/.data/ps1.jpeg
-INFO:     | 2023-10-15 08:51:05 | service | img distance with person: 1 is 0.25447583198547363
-INFO:     | 2023-10-15 08:51:05 | service | no similar faces were found in the database
-INFO:     | 2023-10-15 08:51:05 | service | img distance with person: 1 is 0.06719061732292175
-INFO:     | 2023-10-15 08:51:05 | service | detected face matches id: 1
-INFO:     | 2023-10-15 08:51:05 | mysql_api | Person avatar with id: 1 retrieved from mysql db.
-INFO:     | 2023-10-15 08:51:06 | service | img distance with person: 1 is 0.2680279612541199
-INFO:     | 2023-10-15 08:51:06 | service | no similar faces were found in the database
-INFO:     | 2023-10-15 08:51:06 | service | img distance with person: 1 is 0.21403013169765472
-INFO:     | 2023-10-15 08:51:06 | service | no similar faces were found in the database
-INFO:     | 2023-10-15 08:51:06 | app | recognizing faces fininshed!
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-15 08:55:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 02:02:44 | app | cache face -> app/.data/blob
-ERROR:    | 2023-10-16 02:02:44 | mysql_api | (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))"): mysql record retrieval failed
-INFO:     | 2023-10-16 02:11:18 | app | cache face -> app/.data/blob
-ERROR:    | 2023-10-16 02:11:18 | mysql_api | (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))"): mysql record retrieval failed
-INFO:     | 2023-10-16 05:17:47 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:47 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:47 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:17:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:26:46 | app | cache face -> app/.data/blob
-INFO:     | 2023-10-16 05:26:46 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:49 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:35:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:41:24 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 05:41:24 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 05:41:36 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 05:42:29 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 05:42:29 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 05:46:20 | mysql_api | record deletion waiting to be commited to mysql db.
-INFO:     | 2023-10-16 05:49:03 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:49:04 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 05:52:03 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 05:52:03 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 05:52:16 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 05:58:52 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 05:58:52 | app | recognizing img :app/.data/blob.jpg
-INFO:     | 2023-10-16 05:59:04 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 05:59:04 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 05:59:39 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 05:59:39 | app | recognizing img :app/.data/blob.jpg
-INFO:     | 2023-10-16 05:59:43 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:03:45 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 06:03:45 | app | recognizing img :app/.data/blob.jpg
-INFO:     | 2023-10-16 06:03:59 | service | img distance with person: 2 is 0.06886312365531921
-INFO:     | 2023-10-16 06:03:59 | service | detected face matches id: 2
-INFO:     | 2023-10-16 06:03:59 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 06:03:59 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:05:02 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 06:05:02 | app | recognizing img :app/.data/blob.jpg
-INFO:     | 2023-10-16 06:05:14 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 06:05:14 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:52 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:16:53 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:23:05 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 06:23:05 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 06:23:16 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 06:23:16 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:28:18 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:28:18 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:28:30 | service | No faces were detected in the image app/.data/blog.jpg
-INFO:     | 2023-10-16 06:28:30 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:30:16 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 06:30:16 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 06:30:19 | service | img distance with person: 2 is 0.034283414483070374
-INFO:     | 2023-10-16 06:30:19 | service | detected face matches id: 2
-INFO:     | 2023-10-16 06:30:19 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 06:30:19 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:33:01 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:01 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:01 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:33:02 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:58 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:58 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:58 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:58 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:58 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:58 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:58 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:38:59 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:39:13 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:39:13 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:39:26 | service | img distance with person: 2 is 0.05543067678809166
-INFO:     | 2023-10-16 06:39:26 | service | detected face matches id: 2
-INFO:     | 2023-10-16 06:39:26 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 06:39:26 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:41:57 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:41:57 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:42:09 | service | No faces were detected in the image app/.data/blog.jpg
-INFO:     | 2023-10-16 06:42:09 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:42:22 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:42:22 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:42:48 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:44:25 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:44:25 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:44:36 | service | No faces were detected in the image app/.data/blog.jpg
-INFO:     | 2023-10-16 06:44:36 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:53:26 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:53:26 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:53:50 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 06:55:07 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:55:07 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:55:17 | service | No faces were detected in the image app/.data/blog.jpg
-INFO:     | 2023-10-16 06:55:17 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 06:55:34 | app | cache face to recognize-> app/.data/blog.jpg
-INFO:     | 2023-10-16 06:55:34 | app | recognizing img app/.data/blog.jpg
-INFO:     | 2023-10-16 06:55:39 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 07:13:37 | app | cache face to recognize-> app/.data/p1.jpeg.jpg
-INFO:     | 2023-10-16 07:13:37 | app | recognizing img app/.data/p1.jpeg.jpg
-INFO:     | 2023-10-16 07:13:57 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 07:15:34 | app | cache face to recognize-> app/.data/p1.jpg
-INFO:     | 2023-10-16 07:15:34 | app | recognizing img app/.data/p1.jpg
-INFO:     | 2023-10-16 07:15:37 | service | img distance with person: 1 is 0.0
-INFO:     | 2023-10-16 07:15:37 | service | detected face matches id: 1
-INFO:     | 2023-10-16 07:15:37 | mysql_api | Person avatar with id: 1 retrieved from mysql db.
-INFO:     | 2023-10-16 07:15:37 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 08:27:23 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 11:35:11 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:35:11 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:35:24 | service | img distance with person: 2 is 0.10674765706062317
-INFO:     | 2023-10-16 11:35:24 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 11:35:24 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:35:44 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:35:44 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:35:45 | service | img distance with person: 2 is 0.09271087497472763
-INFO:     | 2023-10-16 11:35:45 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:35:45 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:35:45 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:36:56 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:36:56 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:37:08 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 11:37:08 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:37:24 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:37:24 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:37:35 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 11:37:35 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:38:19 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:38:19 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:38:44 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 11:39:33 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:39:33 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:39:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 11:40:07 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:40:07 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:40:08 | service | img distance with person: 2 is 0.08505546301603317
-INFO:     | 2023-10-16 11:40:08 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:40:08 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:40:08 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:42:26 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 11:42:51 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:42:51 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:43:05 | service | img distance with person: 2 is 0.09286990016698837
-INFO:     | 2023-10-16 11:43:05 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:43:05 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:43:05 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:43:42 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:43:42 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:43:42 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 11:43:42 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:44:06 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 11:44:57 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:44:57 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:45:11 | service | img distance with person: 2 is 0.09308075904846191
-INFO:     | 2023-10-16 11:45:11 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:45:11 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:45:11 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:48:03 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:48:03 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:48:04 | service | img distance with person: 2 is 0.09487410634756088
-INFO:     | 2023-10-16 11:48:04 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:48:04 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:48:04 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:49:29 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:49:29 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:49:29 | service | img distance with person: 2 is 0.2266104519367218
-INFO:     | 2023-10-16 11:49:29 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 11:49:29 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:49:47 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:49:47 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:49:47 | service | img distance with person: 2 is 0.12061105668544769
-INFO:     | 2023-10-16 11:49:47 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 11:49:47 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:49:59 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:49:59 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:50:00 | service | img distance with person: 2 is 0.11285577714443207
-INFO:     | 2023-10-16 11:50:00 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 11:50:00 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:50:13 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:50:13 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:50:14 | service | img distance with person: 2 is 0.08215243369340897
-INFO:     | 2023-10-16 11:50:14 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:50:14 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:50:14 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:50:53 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:50:53 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:50:53 | service | img distance with person: 2 is 0.0951031893491745
-INFO:     | 2023-10-16 11:50:53 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:50:53 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:50:53 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:52:30 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:52:30 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:52:31 | service | img distance with person: 2 is 0.08334144949913025
-INFO:     | 2023-10-16 11:52:31 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:52:31 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:52:31 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:52:58 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:52:58 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:52:58 | service | img distance with person: 2 is 0.15292465686798096
-INFO:     | 2023-10-16 11:52:58 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 11:52:58 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:53:15 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:53:15 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:53:16 | service | img distance with person: 2 is 0.1286740005016327
-INFO:     | 2023-10-16 11:53:16 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 11:53:16 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 11:53:29 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 11:53:29 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 11:53:30 | service | img distance with person: 2 is 0.09655304253101349
-INFO:     | 2023-10-16 11:53:30 | service | detected face matches id: 2
-INFO:     | 2023-10-16 11:53:30 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 11:53:30 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:02:03 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:03 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:03 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:03 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:02:06 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:06 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:06 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:06 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:02:09 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:09 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:09 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:09 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:02:22 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:22 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:22 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 12:02:22 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:03:03 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:03:03 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:03:03 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 12:03:03 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:03:57 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:03:57 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:03:58 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 12:03:58 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:04:06 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:04:06 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:04:06 | service | No faces were detected in the image app/.data/blob.jpg
-INFO:     | 2023-10-16 12:04:06 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:04:13 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:04:13 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:04:14 | service | img distance with person: 2 is 0.08296213299036026
-INFO:     | 2023-10-16 12:04:14 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:04:14 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:04:14 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:04:54 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:04:54 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:04:55 | service | img distance with person: 2 is 0.09444807469844818
-INFO:     | 2023-10-16 12:04:55 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:04:55 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:04:55 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:09:39 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:09:39 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:09:40 | service | img distance with person: 2 is 0.1275750994682312
-INFO:     | 2023-10-16 12:09:40 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 12:09:40 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:09:51 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:09:51 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:09:52 | service | img distance with person: 2 is 0.10149890184402466
-INFO:     | 2023-10-16 12:09:52 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 12:09:52 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:10:20 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:10:20 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:10:20 | service | img distance with person: 2 is 0.10184234380722046
-INFO:     | 2023-10-16 12:10:20 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 12:10:20 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:10:27 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:10:27 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:10:27 | service | img distance with person: 2 is 0.08689973503351212
-INFO:     | 2023-10-16 12:10:27 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:10:27 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:10:27 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:15:00 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 12:15:53 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:15:53 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:17:00 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:17:00 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:17:14 | service | img distance with person: 2 is 0.08262720704078674
-INFO:     | 2023-10-16 12:17:14 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:17:14 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:17:14 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:19:25 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:19:25 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:19:26 | service | img distance with person: 2 is 0.08378277719020844
-INFO:     | 2023-10-16 12:19:26 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:19:26 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:19:26 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:19:42 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:19:42 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:19:42 | service | img distance with person: 2 is 0.08603787422180176
-INFO:     | 2023-10-16 12:19:42 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:19:42 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:19:42 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:19:57 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:19:57 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:19:58 | service | img distance with person: 2 is 0.1017712950706482
-INFO:     | 2023-10-16 12:19:58 | service | no similar faces were found in the database
-INFO:     | 2023-10-16 12:19:58 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:20:02 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:20:02 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:20:03 | service | img distance with person: 2 is 0.09706158190965652
-INFO:     | 2023-10-16 12:20:03 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:20:03 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:20:03 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:22:20 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:22:20 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:22:21 | service | img distance with person: 2 is 0.08430467545986176
-INFO:     | 2023-10-16 12:22:21 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:22:21 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:22:21 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:22:37 | milvus_api | Collection faces present already.
-INFO:     | 2023-10-16 12:50:52 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:50:52 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:51:49 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:51:49 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 12:52:03 | service | img distance with person: 2 is 0.08523473143577576
-INFO:     | 2023-10-16 12:52:03 | service | detected face matches id: 2
-INFO:     | 2023-10-16 12:52:03 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:52:03 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 12:52:14 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:52:14 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:52:17 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 12:53:37 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:53:37 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:53:37 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 12:54:08 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:54:08 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:54:08 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 12:55:04 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:55:04 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:55:04 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 12:57:09 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 12:57:09 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 12:57:10 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 13:09:56 | app | cache face to register-> app/.data/blob.jpg
-INFO:     | 2023-10-16 13:09:56 | mysql_api | Person with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 13:09:57 | service | Vector for person with id: 2 inserted into milvus db.
-INFO:     | 2023-10-16 13:10:29 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 13:10:29 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 13:10:30 | service | img distance with person: 2 is 0.042131975293159485
-INFO:     | 2023-10-16 13:10:30 | service | detected face matches id: 2
-INFO:     | 2023-10-16 13:10:30 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 13:10:30 | app | recognizing faces fininshed!
-INFO:     | 2023-10-16 13:11:30 | app | cache face to recognize-> app/.data/blob.jpg
-INFO:     | 2023-10-16 13:11:30 | app | recognizing img app/.data/blob.jpg
-INFO:     | 2023-10-16 13:11:31 | service | img distance with person: 2 is 0.02097770944237709
-INFO:     | 2023-10-16 13:11:31 | service | detected face matches id: 2
-INFO:     | 2023-10-16 13:11:31 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
-INFO:     | 2023-10-16 13:11:31 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 09:29:20 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-17 09:33:09 | app | cache face to recognize-> app/.data/p1.jpg
+INFO:     | 2023-10-17 09:33:09 | app | recognizing img app/.data/p1.jpg
+INFO:     | 2023-10-17 09:33:22 | service | img distance with person: 1 is 0.0
+INFO:     | 2023-10-17 09:33:22 | service | detected face matches id: 1
+INFO:     | 2023-10-17 09:33:22 | mysql_api | Person avatar with id: 1 retrieved from mysql db.
+INFO:     | 2023-10-17 09:33:22 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 09:39:28 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-17 11:17:30 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 11:17:30 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 11:17:43 | service | img distance with person: 2 is 0.07817590981721878
+INFO:     | 2023-10-17 11:17:43 | service | detected face matches id: 2
+INFO:     | 2023-10-17 11:17:43 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 11:17:43 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 11:23:09 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-17 11:23:09 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 11:23:12 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-17 11:23:39 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 11:23:39 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 11:23:39 | service | img distance with person: 2 is 0.015799574553966522
+INFO:     | 2023-10-17 11:23:39 | service | detected face matches id: 2
+INFO:     | 2023-10-17 11:23:39 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 11:23:39 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 11:23:50 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 11:23:50 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 11:23:50 | service | img distance with person: 2 is 0.024000197649002075
+INFO:     | 2023-10-17 11:23:50 | service | detected face matches id: 2
+INFO:     | 2023-10-17 11:23:50 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 11:23:50 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 11:54:44 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 11:54:44 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 11:54:44 | service | img distance with person: 2 is 0.05850905179977417
+INFO:     | 2023-10-17 11:54:44 | service | detected face matches id: 2
+INFO:     | 2023-10-17 11:54:44 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 11:54:44 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 11:57:29 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-17 11:57:29 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 11:57:32 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-17 13:25:06 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:25:06 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:25:06 | service | img distance with person: 2 is 0.11220529675483704
+INFO:     | 2023-10-17 13:25:06 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:25:06 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:25:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:32:30 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:32:30 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:32:31 | service | img distance with person: 2 is 0.1108245849609375
+INFO:     | 2023-10-17 13:32:31 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:32:31 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:32:31 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:33:03 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:33:03 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:33:06 | service | img distance with person: 2 is 0.10083593428134918
+INFO:     | 2023-10-17 13:33:06 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:33:06 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:33:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:33:49 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:33:49 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:33:50 | service | img distance with person: 2 is 0.12052500993013382
+INFO:     | 2023-10-17 13:33:50 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:33:50 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:33:50 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:34:12 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:34:12 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:34:12 | service | img distance with person: 2 is 0.1205359548330307
+INFO:     | 2023-10-17 13:34:12 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:34:12 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:34:12 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:34:22 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:34:22 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:34:22 | service | img distance with person: 2 is 0.10626532882452011
+INFO:     | 2023-10-17 13:34:22 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:34:22 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:34:22 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:36:19 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:36:19 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:36:19 | service | img distance with person: 2 is 0.08797827363014221
+INFO:     | 2023-10-17 13:36:19 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:36:19 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:36:19 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:44:29 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:44:29 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:44:29 | service | img distance with person: 2 is 0.0932495966553688
+INFO:     | 2023-10-17 13:44:29 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:44:29 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:44:29 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:44:54 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:44:54 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:44:55 | service | img distance with person: 2 is 0.1082509234547615
+INFO:     | 2023-10-17 13:44:55 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:44:55 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:44:55 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:47:52 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:47:52 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:47:53 | service | img distance with person: 2 is 0.13024574518203735
+INFO:     | 2023-10-17 13:47:53 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:47:53 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:47:53 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:50:16 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:50:16 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:50:20 | service | img distance with person: 2 is 0.10415703058242798
+INFO:     | 2023-10-17 13:50:20 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:50:20 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:50:20 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:51:13 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:51:13 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:51:14 | service | img distance with person: 2 is 0.12135651707649231
+INFO:     | 2023-10-17 13:51:14 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:51:14 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:51:14 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:56:47 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:56:47 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:56:48 | service | img distance with person: 2 is 0.13152118027210236
+INFO:     | 2023-10-17 13:56:48 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:56:48 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:56:48 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 13:57:22 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 13:57:22 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 13:57:23 | service | img distance with person: 2 is 0.11670446395874023
+INFO:     | 2023-10-17 13:57:23 | service | detected face matches id: 2
+INFO:     | 2023-10-17 13:57:23 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 13:57:23 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 14:10:55 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-17 14:10:55 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 14:10:56 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-17 14:24:42 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-17 14:24:42 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 14:24:43 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-17 14:25:01 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 14:25:01 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 14:25:01 | service | img distance with person: 2 is 0.053506217896938324
+INFO:     | 2023-10-17 14:25:01 | service | detected face matches id: 2
+INFO:     | 2023-10-17 14:25:01 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 14:25:01 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 14:41:12 | app | cache face to register-> app/.data/blob.jpg
+WARNING:  | 2023-10-17 14:41:12 | mysql_api | mysql record with id: 4 does not exist.
+INFO:     | 2023-10-17 14:41:15 | service | Vector for person with id: 4 inserted into milvus db.
+INFO:     | 2023-10-17 14:53:05 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 14:53:05 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 14:53:05 | service | img distance with person: 2 is 0.0363188199698925
+INFO:     | 2023-10-17 14:53:05 | service | detected face matches id: 2
+INFO:     | 2023-10-17 14:53:05 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 14:53:05 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 14:58:41 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 14:58:41 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 14:58:42 | service | img distance with person: 2 is 0.09301894903182983
+INFO:     | 2023-10-17 14:58:42 | service | detected face matches id: 2
+INFO:     | 2023-10-17 14:58:42 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 14:58:42 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:00:16 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:00:16 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:00:17 | service | img distance with person: 2 is 0.09929434955120087
+INFO:     | 2023-10-17 15:00:17 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:00:17 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:00:17 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:00:57 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:00:57 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:00:57 | service | img distance with person: 2 is 0.03667647764086723
+INFO:     | 2023-10-17 15:00:57 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:00:57 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:00:57 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:01:45 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:01:45 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:01:45 | service | img distance with person: 2 is 0.12246805429458618
+INFO:     | 2023-10-17 15:01:45 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:01:45 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:01:45 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:02:08 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:02:08 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:02:09 | service | img distance with person: 2 is 0.12719163298606873
+INFO:     | 2023-10-17 15:02:09 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:02:09 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:02:09 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:02:48 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:02:48 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:02:49 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-17 15:02:49 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:02:59 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:02:59 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:02:59 | service | img distance with person: 2 is 0.034284722059965134
+INFO:     | 2023-10-17 15:02:59 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:02:59 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:02:59 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:03:28 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:03:28 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:03:29 | service | img distance with person: 2 is 0.07871515303850174
+INFO:     | 2023-10-17 15:03:29 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:03:29 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:03:29 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:04:03 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:04:03 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:04:04 | service | img distance with person: 2 is 0.05868229269981384
+INFO:     | 2023-10-17 15:04:04 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:04:04 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:04:04 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:04:17 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:04:17 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:04:18 | service | img distance with person: 2 is 0.11480718106031418
+INFO:     | 2023-10-17 15:04:18 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:04:18 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:04:18 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:04:49 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:04:49 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:04:50 | service | img distance with person: 2 is 0.10250946879386902
+INFO:     | 2023-10-17 15:04:50 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:04:50 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:04:50 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:06:15 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:06:15 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:06:15 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-17 15:10:47 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:10:47 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:10:50 | service | img distance with person: 2 is 0.05610336363315582
+INFO:     | 2023-10-17 15:10:50 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:10:50 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:10:50 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:12:43 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:12:43 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:12:44 | service | img distance with person: 4 is 0.2704034447669983
+INFO:     | 2023-10-17 15:12:44 | service | no similar faces were found in the database
+INFO:     | 2023-10-17 15:12:44 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:12:52 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:12:52 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:12:53 | service | img distance with person: 4 is 0.2468973994255066
+INFO:     | 2023-10-17 15:12:53 | service | no similar faces were found in the database
+INFO:     | 2023-10-17 15:12:53 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:13:04 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:13:04 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:13:05 | service | img distance with person: 2 is 0.09462962299585342
+INFO:     | 2023-10-17 15:13:05 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:13:05 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:13:05 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:13:28 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:13:28 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:13:28 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-17 15:13:28 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:13:41 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:13:41 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:13:43 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-17 15:14:02 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:02 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:03 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:03 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:14:07 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:07 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:07 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:07 | app | recognizing faces fininshed!
+INFO:     | 2023-10-17 15:14:14 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:14 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-17 15:14:15 | service | img distance with person: 2 is 0.11363585293292999
+INFO:     | 2023-10-17 15:14:15 | service | detected face matches id: 2
+INFO:     | 2023-10-17 15:14:15 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-17 15:14:15 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:42:23 | app | cache face to register-> app/.data/blob.jpg
+ERROR:    | 2023-10-18 04:42:23 | mysql_api | (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))"): mysql record retrieval failed
+INFO:     | 2023-10-18 04:42:23 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-18 04:47:33 | app | cache face to register-> app/.data/blob.jpg
+ERROR:    | 2023-10-18 04:47:33 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:47:33 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-18 04:50:14 | app | cache face to register-> app/.data/blob.jpg
+ERROR:    | 2023-10-18 04:50:14 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:16 | app | cache face to register-> app/.data/blob.jpg
+ERROR:    | 2023-10-18 04:50:16 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:17 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-18 04:50:37 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:37 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:37 | service | img distance with person: 2 is 0.048934999853372574
+INFO:     | 2023-10-18 04:50:37 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:37 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:37 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:50:41 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:41 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:41 | service | img distance with person: 2 is 0.046076700091362
+INFO:     | 2023-10-18 04:50:41 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:41 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:41 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:50:43 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:43 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:44 | service | img distance with person: 2 is 0.05139052867889404
+INFO:     | 2023-10-18 04:50:44 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:44 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:44 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:50:45 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:45 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:46 | service | img distance with person: 2 is 0.046103909611701965
+INFO:     | 2023-10-18 04:50:46 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:46 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:46 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:50:47 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:47 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:48 | service | img distance with person: 2 is 0.047084540128707886
+INFO:     | 2023-10-18 04:50:48 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:48 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:48 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:50:49 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:49 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:49 | service | img distance with person: 2 is 0.04496388882398605
+INFO:     | 2023-10-18 04:50:49 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:49 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:49 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:50:50 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:50 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:51 | service | img distance with person: 2 is 0.04006761312484741
+INFO:     | 2023-10-18 04:50:51 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:51 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:51 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:50:58 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:58 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:50:59 | service | img distance with person: 2 is 0.04383508488535881
+INFO:     | 2023-10-18 04:50:59 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:50:59 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:50:59 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:03 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:03 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:03 | service | img distance with person: 2 is 0.05201740935444832
+INFO:     | 2023-10-18 04:51:03 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:03 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:03 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:37 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:37 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:38 | service | img distance with person: 2 is 0.05976678803563118
+INFO:     | 2023-10-18 04:51:38 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:38 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:38 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:48 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:48 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:49 | service | img distance with person: 2 is 0.04961051419377327
+INFO:     | 2023-10-18 04:51:49 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:49 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:49 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:51 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:51 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:51 | service | img distance with person: 2 is 0.05318566411733627
+INFO:     | 2023-10-18 04:51:51 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:51 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:51 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:53 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:53 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:53 | service | img distance with person: 2 is 0.042454421520233154
+INFO:     | 2023-10-18 04:51:53 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:53 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:53 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:55 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:55 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:55 | service | img distance with person: 2 is 0.04704305902123451
+INFO:     | 2023-10-18 04:51:55 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:55 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:55 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:56 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:56 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:57 | service | img distance with person: 2 is 0.047750942409038544
+INFO:     | 2023-10-18 04:51:57 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:57 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:57 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:51:58 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:58 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:51:59 | service | img distance with person: 2 is 0.03988564759492874
+INFO:     | 2023-10-18 04:51:59 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:51:59 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:51:59 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:52:04 | app | cache face to register-> app/.data/blob.jpg
+ERROR:    | 2023-10-18 04:52:04 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:52:05 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-18 04:52:24 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:52:24 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:52:25 | service | img distance with person: 2 is 0.01264176145195961
+INFO:     | 2023-10-18 04:52:25 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:52:25 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:52:25 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:53:03 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:03 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:04 | service | img distance with person: 2 is 0.02862863801419735
+INFO:     | 2023-10-18 04:53:04 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:53:04 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:53:04 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:53:07 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:07 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:08 | service | img distance with person: 2 is 0.03253244608640671
+INFO:     | 2023-10-18 04:53:08 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:53:08 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:53:08 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:53:14 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:14 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:15 | service | img distance with person: 2 is 0.04596371203660965
+INFO:     | 2023-10-18 04:53:15 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:53:15 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:53:15 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:53:18 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:18 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:18 | service | img distance with person: 2 is 0.03049551136791706
+INFO:     | 2023-10-18 04:53:18 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:53:18 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:53:18 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:53:20 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:20 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:21 | service | img distance with person: 2 is 0.02770432084798813
+INFO:     | 2023-10-18 04:53:21 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:53:21 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:53:21 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:53:23 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:23 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:24 | service | img distance with person: 2 is 0.028861919417977333
+INFO:     | 2023-10-18 04:53:24 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:53:24 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:53:24 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 04:53:26 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:26 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 04:53:27 | service | img distance with person: 2 is 0.03093339502811432
+INFO:     | 2023-10-18 04:53:27 | service | detected face matches id: 2
+ERROR:    | 2023-10-18 04:53:27 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-18 04:53:27 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 05:03:43 | milvus_api | Collection faces present already.
