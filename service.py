@@ -18,9 +18,7 @@ from dao.mysql import (insert_person_data_into_sql,
                        select_person_avatar_from_sql_with_id)
 from pymysql.cursors import DictCursor
 
-from config import (MYSQL_HOST, MYSQL_PORT,
-                    MYSQL_USER, MYSQL_PASSWORD,
-                    MYSQL_DATABASE, MYSQL_CUR_TABLE,
+from config import (MYSQL_CUR_TABLE,
                     MILVUS_HOST, MILVUS_PORT,
                     FACE_VECTOR_DIM, FACE_METRIC_TYPE,
                     FACE_INDEX_NLIST, FACE_SEARCH_NPROBE,
@@ -32,18 +30,21 @@ import numpy as np
 import cv2
 import logging
 
+from dao.db import mysql_pool
+
+
 # logger
 logger = logging.getLogger('service')
 
 
 # Connect to MySQL
-mysql_conn = pymysql.connect(
-    host=MYSQL_HOST,
-    port=MYSQL_PORT,
-    user=MYSQL_USER,
-    password=MYSQL_PASSWORD,
-    db=MYSQL_DATABASE,
-    cursorclass=DictCursor)
+# mysql_conn = pymysql.connect(
+#     host=MYSQL_HOST,
+#     port=MYSQL_PORT,
+#     user=MYSQL_USER,
+#     password=MYSQL_PASSWORD,
+#     db=MYSQL_DATABASE,
+#     cursorclass=DictCursor)
 
 # connect to milvus connec
 milvus_collec_conn = get_milvus_collec_conn(
@@ -72,6 +73,11 @@ models = [
 ]
 
 
+def get_connection():
+    conn = mysql_pool.connection()
+    return conn
+
+
 def get_registered_person(
         person_id: int,
         table: str = MYSQL_CUR_TABLE) -> dict:
@@ -82,6 +88,7 @@ def get_registered_person(
     # try cached redis data
     # TODO
     # if cache is not found, query mysql
+    mysql_conn = get_connection()
     return select_person_data_from_sql_with_id(
         mysql_conn, table, person_id)
 
@@ -92,6 +99,7 @@ def get_person_avatar(
     """
     Get the avatar of person by id
     """
+    mysql_conn = get_connection()
     return select_person_avatar_from_sql_with_id(
         mysql_conn, table, person_id
     )
@@ -102,6 +110,7 @@ def get_all_registered_person(
     """
     Get all registered persons query mysql
     """
+    mysql_conn = get_connection()
     return select_all_person_data_from_sql(mysql_conn, table)
 
 
@@ -114,6 +123,7 @@ def unregister_person(
     Operation is atomic, if one delete op fails, all ops fail
     """
     try:
+        mysql_conn = get_connection()
         # unregister from mysql
         # commit is set to False so that the op is atomic with milvus & redis
         mysql_del_resp = delete_person_data_from_sql_with_id(
@@ -133,7 +143,7 @@ def unregister_person(
         # commit mysql record delete
         mysql_conn.commit()
     except (pymysql.Error, MilvusException) as excep:
-        msg = f"person with id {person_id} couldn't be unregistered from database ❌"
+        msg = f"person with id {person_id} couldn't be unregistered from database"
         return {"status": "failed",
                 "message": msg}
     print("person record with id %s unregistered from database.", person_id)
@@ -148,6 +158,7 @@ def register_person_avatar(
     """
     Get the user_info and avatar path,insert it into our db
     """
+    mysql_conn = get_connection()
     # uniq person id from user input
     person_id = person_data["id"]
     # check if person already exists in redis/mysql
@@ -253,6 +264,8 @@ def register_person(
     person_data dict should be based on the init.sql table schema
     Operation is atomic, if one insert op fails, all ops fail
     """
+
+    mysql_conn = get_connection()
     # uniq person id from user input
     person_id = person_data["id"]
     # check if face already exists in redis/mysql
@@ -322,6 +335,8 @@ def recognize_person(
     Detects faces in image from the file_path and finds the most similar face vector
     from a set of saved face vectors
     """
+    # mysql_conn = get_connection()
+
     pred_dict = run_inference(
         file_path,
         face_feat_model=model_name,

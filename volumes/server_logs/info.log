@@ -658,3 +658,755 @@ INFO:     | 2023-10-18 11:43:51 | mysql_api | SELECT avatar_url FROM person WHER
 INFO:     | 2023-10-18 11:43:51 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
 INFO:     | 2023-10-18 11:43:51 | app | recognizing faces fininshed!
 INFO:     | 2023-10-18 11:57:04 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-18 12:06:54 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-18 12:34:21 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:34:21 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:34:35 | service | img distance with person: 3 is 0.16334845125675201
+INFO:     | 2023-10-18 12:34:35 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:34:35 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:34:35 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:34:35 | service | img distance with person: 2 is 0.14772257208824158
+INFO:     | 2023-10-18 12:34:35 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:34:35 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:34:35 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:34:35 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:34:52 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:34:52 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:34:53 | service | img distance with person: 3 is 0.12299487739801407
+INFO:     | 2023-10-18 12:34:53 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:34:53 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:34:53 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:34:53 | service | img distance with person: 2 is 0.12925046682357788
+INFO:     | 2023-10-18 12:34:53 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:34:53 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:34:53 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:34:53 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:44:12 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:44:12 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:44:16 | service | img distance with person: 2 is 0.13243989646434784
+INFO:     | 2023-10-18 12:44:16 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:44:16 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:44:16 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:44:16 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:44:26 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:44:26 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:44:27 | service | img distance with person: 2 is 0.1339566707611084
+INFO:     | 2023-10-18 12:44:27 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:44:27 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:44:27 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:44:27 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:45:06 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:45:06 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:45:06 | service | img distance with person: 2 is 0.13687552511692047
+INFO:     | 2023-10-18 12:45:06 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:45:06 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:45:06 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:45:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:45:58 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:45:58 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:45:59 | service | img distance with person: 3 is 0.14375457167625427
+INFO:     | 2023-10-18 12:45:59 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:45:59 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:45:59 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:45:59 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:46:11 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:46:11 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:46:12 | service | img distance with person: 3 is 0.13963347673416138
+INFO:     | 2023-10-18 12:46:12 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:46:12 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:46:12 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:46:12 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:46:38 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:46:38 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:46:39 | service | img distance with person: 3 is 0.1195480227470398
+INFO:     | 2023-10-18 12:46:39 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:46:39 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:46:39 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:46:39 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:46:52 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:46:52 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:46:52 | service | img distance with person: 3 is 0.12869834899902344
+INFO:     | 2023-10-18 12:46:52 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:46:52 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:46:52 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:46:52 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:47:03 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:47:03 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:47:04 | service | img distance with person: 3 is 0.1527092456817627
+INFO:     | 2023-10-18 12:47:04 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:47:04 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:47:04 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:47:04 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:47:49 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:47:49 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:47:50 | service | img distance with person: 2 is 0.15063700079917908
+INFO:     | 2023-10-18 12:47:50 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:47:50 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:47:50 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:47:50 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:48:01 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:48:01 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:48:02 | service | img distance with person: 2 is 0.14444412291049957
+INFO:     | 2023-10-18 12:48:02 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:48:02 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:48:02 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:48:02 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:50:27 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:50:27 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:50:28 | service | img distance with person: 2 is 0.1527567356824875
+INFO:     | 2023-10-18 12:50:28 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:50:28 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:50:28 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:50:28 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:50:42 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:50:42 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:50:43 | service | img distance with person: 2 is 0.14249645173549652
+INFO:     | 2023-10-18 12:50:43 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:50:43 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:50:43 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:50:43 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:50:52 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:50:52 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:50:53 | service | img distance with person: 3 is 0.1448933631181717
+INFO:     | 2023-10-18 12:50:53 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:50:53 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:50:53 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:50:53 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:51:09 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:51:09 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:51:10 | service | img distance with person: 3 is 0.1263238787651062
+INFO:     | 2023-10-18 12:51:10 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:51:10 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:51:10 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:51:10 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:52:23 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:52:23 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:52:24 | service | img distance with person: 3 is 0.12455195933580399
+INFO:     | 2023-10-18 12:52:24 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:52:24 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:52:24 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:52:24 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:52:54 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:52:54 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:52:55 | service | img distance with person: 3 is 0.16472755372524261
+INFO:     | 2023-10-18 12:52:55 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:52:55 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:52:55 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:52:55 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:53:05 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:05 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:06 | service | img distance with person: 3 is 0.15550848841667175
+INFO:     | 2023-10-18 12:53:06 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:53:06 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:53:06 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:53:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:53:12 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:12 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:12 | service | img distance with person: 3 is 0.13435576856136322
+INFO:     | 2023-10-18 12:53:12 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:53:12 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:53:12 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:53:12 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:53:20 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:20 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:21 | service | img distance with person: 3 is 0.12291866540908813
+INFO:     | 2023-10-18 12:53:21 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:53:21 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:53:21 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:53:21 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:53:30 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:30 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:31 | service | img distance with person: 3 is 0.13643930852413177
+INFO:     | 2023-10-18 12:53:31 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:53:31 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:53:31 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:53:31 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:53:40 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:40 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:41 | service | img distance with person: 3 is 0.13038398325443268
+INFO:     | 2023-10-18 12:53:41 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:53:41 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:53:41 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:53:41 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:53:51 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:51 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:53:52 | service | img distance with person: 3 is 0.12603841722011566
+INFO:     | 2023-10-18 12:53:52 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:53:52 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:53:52 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:53:52 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:54:01 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:54:01 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:54:02 | service | img distance with person: 3 is 0.16808053851127625
+INFO:     | 2023-10-18 12:54:02 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:54:02 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:54:02 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:54:02 | service | img distance with person: 2 is 0.1305479109287262
+INFO:     | 2023-10-18 12:54:02 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:54:02 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:54:02 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:54:02 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:54:21 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:54:21 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:54:22 | service | img distance with person: 3 is 0.11905898153781891
+INFO:     | 2023-10-18 12:54:22 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:54:22 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:54:22 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:54:22 | service | img distance with person: 2 is 0.15995901823043823
+INFO:     | 2023-10-18 12:54:22 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:54:22 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:54:22 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:54:22 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:55:30 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:55:30 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:55:30 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-18 12:55:30 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:56:17 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:56:17 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:56:21 | service | img distance with person: 3 is 0.18418705463409424
+INFO:     | 2023-10-18 12:56:21 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:56:21 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:56:21 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:56:21 | service | img distance with person: 2 is 0.12255176156759262
+INFO:     | 2023-10-18 12:56:21 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:56:21 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:56:21 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:56:21 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:56:34 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:56:34 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:56:34 | service | img distance with person: 3 is 0.1526688188314438
+INFO:     | 2023-10-18 12:56:34 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:56:34 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:56:34 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:56:34 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:56:55 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:56:55 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:56:56 | service | img distance with person: 4 is 0.1912895292043686
+INFO:     | 2023-10-18 12:56:56 | service | detected face matches id: 4
+INFO:     | 2023-10-18 12:56:56 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:56:56 | mysql_api | Person avatar with id: 4 retrieved from mysql db.
+INFO:     | 2023-10-18 12:56:56 | service | img distance with person: 3 is 0.17301180958747864
+INFO:     | 2023-10-18 12:56:56 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:56:56 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:56:56 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:56:56 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:57:39 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:57:39 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:57:39 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-18 12:57:39 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:58:59 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:58:59 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:58:59 | service | img distance with person: 2 is 0.11917807906866074
+INFO:     | 2023-10-18 12:58:59 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:58:59 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:58:59 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:58:59 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:59:29 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:59:29 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:59:29 | service | img distance with person: 2 is 0.1327727884054184
+INFO:     | 2023-10-18 12:59:29 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:59:29 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:59:29 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:59:29 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 12:59:44 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 12:59:44 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 12:59:45 | service | img distance with person: 2 is 0.13666030764579773
+INFO:     | 2023-10-18 12:59:45 | service | detected face matches id: 2
+INFO:     | 2023-10-18 12:59:45 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:59:45 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 12:59:45 | service | img distance with person: 3 is 0.151169553399086
+INFO:     | 2023-10-18 12:59:45 | service | detected face matches id: 3
+INFO:     | 2023-10-18 12:59:45 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 12:59:45 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 12:59:45 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:00:25 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:00:25 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:00:25 | service | img distance with person: 2 is 0.14708596467971802
+INFO:     | 2023-10-18 13:00:25 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:00:25 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:00:25 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:00:25 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:01:02 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:01:02 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:01:02 | service | img distance with person: 2 is 0.13112661242485046
+INFO:     | 2023-10-18 13:01:02 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:01:02 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:01:02 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:01:02 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:01:57 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:01:57 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:01:57 | service | img distance with person: 3 is 0.16318780183792114
+INFO:     | 2023-10-18 13:01:57 | service | detected face matches id: 3
+INFO:     | 2023-10-18 13:01:57 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:01:57 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 13:01:57 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:02:09 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:02:09 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:02:10 | service | img distance with person: 3 is 0.1335693895816803
+INFO:     | 2023-10-18 13:02:10 | service | detected face matches id: 3
+INFO:     | 2023-10-18 13:02:10 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:02:10 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 13:02:10 | service | img distance with person: 2 is 0.1473679542541504
+INFO:     | 2023-10-18 13:02:10 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:02:10 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:02:10 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:02:10 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:03:04 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:03:04 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:03:04 | service | img distance with person: 3 is 0.16596931219100952
+INFO:     | 2023-10-18 13:03:04 | service | detected face matches id: 3
+INFO:     | 2023-10-18 13:03:04 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:03:04 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 13:03:05 | service | img distance with person: 2 is 0.16632117331027985
+INFO:     | 2023-10-18 13:03:05 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:03:05 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:03:05 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:03:05 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:03:22 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:03:22 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:03:22 | service | img distance with person: 3 is 0.16305573284626007
+INFO:     | 2023-10-18 13:03:22 | service | detected face matches id: 3
+INFO:     | 2023-10-18 13:03:22 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:03:22 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 13:03:23 | service | img distance with person: 2 is 0.16017626225948334
+INFO:     | 2023-10-18 13:03:23 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:03:23 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:03:23 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:03:23 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:05:00 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:05:00 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:05:01 | service | img distance with person: 2 is 0.12052544951438904
+INFO:     | 2023-10-18 13:05:01 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:05:01 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:05:01 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:05:01 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:05:16 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:05:16 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:05:17 | service | img distance with person: 2 is 0.1785915046930313
+INFO:     | 2023-10-18 13:05:17 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:05:17 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:05:17 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:05:17 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:05:26 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:05:26 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:05:27 | service | img distance with person: 3 is 0.16149207949638367
+INFO:     | 2023-10-18 13:05:27 | service | detected face matches id: 3
+INFO:     | 2023-10-18 13:05:27 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:05:27 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 13:05:27 | service | img distance with person: 2 is 0.13600511848926544
+INFO:     | 2023-10-18 13:05:27 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:05:27 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:05:27 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:05:27 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:06:18 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:06:18 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:06:19 | service | img distance with person: 2 is 0.1811959445476532
+INFO:     | 2023-10-18 13:06:19 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:06:19 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:06:19 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:06:19 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:07:53 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:07:53 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:07:54 | service | img distance with person: 3 is 0.20492799580097198
+INFO:     | 2023-10-18 13:07:54 | service | no similar faces were found in the database
+INFO:     | 2023-10-18 13:07:54 | service | img distance with person: 2 is 0.11541050672531128
+INFO:     | 2023-10-18 13:07:54 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:07:54 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:07:54 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:07:54 | app | recognizing faces fininshed!
+INFO:     | 2023-10-18 13:08:30 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-18 13:08:30 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-18 13:08:31 | service | img distance with person: 3 is 0.19812831282615662
+INFO:     | 2023-10-18 13:08:31 | service | detected face matches id: 3
+INFO:     | 2023-10-18 13:08:31 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:08:31 | mysql_api | Person avatar with id: 3 retrieved from mysql db.
+INFO:     | 2023-10-18 13:08:31 | service | img distance with person: 2 is 0.1431836038827896
+INFO:     | 2023-10-18 13:08:31 | service | detected face matches id: 2
+INFO:     | 2023-10-18 13:08:31 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-18 13:08:31 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-18 13:08:31 | app | recognizing faces fininshed!
+INFO:     | 2023-10-19 08:12:43 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-19 08:12:43 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-19 08:12:44 | service | img distance with person: 2 is 0.09440717101097107
+INFO:     | 2023-10-19 08:12:44 | service | detected face matches id: 2
+INFO:     | 2023-10-19 08:12:44 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-19 08:12:44 | mysql_api | (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))"): mysql record retrieval failed
+INFO:     | 2023-10-19 08:12:44 | app | recognizing faces fininshed!
+INFO:     | 2023-10-19 08:12:53 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-19 08:12:53 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-19 08:12:54 | service | img distance with person: 2 is 0.1012171059846878
+INFO:     | 2023-10-19 08:12:54 | service | detected face matches id: 2
+INFO:     | 2023-10-19 08:12:54 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-19 08:12:54 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-19 08:12:54 | app | recognizing faces fininshed!
+INFO:     | 2023-10-19 08:13:04 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:04 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:04 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:04 | app | recognizing faces fininshed!
+INFO:     | 2023-10-19 08:13:06 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:06 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:06 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-19 08:13:09 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:09 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-19 08:13:10 | service | img distance with person: 2 is 0.09781394153833389
+INFO:     | 2023-10-19 08:13:10 | service | detected face matches id: 2
+INFO:     | 2023-10-19 08:13:10 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-19 08:13:10 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-19 08:13:10 | app | recognizing faces fininshed!
+INFO:     | 2023-10-20 04:55:43 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-20 04:55:43 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-20 04:55:47 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-20 04:55:47 | app | recognizing faces fininshed!
+INFO:     | 2023-10-20 04:56:01 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:01 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:01 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:01 | app | recognizing faces fininshed!
+INFO:     | 2023-10-20 04:56:04 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:04 | mysql_api | SELECT * FROM person WHERE id = %s
+ERROR:    | 2023-10-20 04:56:04 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-20 04:56:07 | service | Vector for person with id: 1 inserted into milvus db.
+INFO:     | 2023-10-20 04:56:27 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:27 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:28 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:28 | app | recognizing faces fininshed!
+INFO:     | 2023-10-20 04:56:31 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-20 04:56:31 | mysql_api | SELECT * FROM person WHERE id = %s
+ERROR:    | 2023-10-20 04:56:31 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-20 04:56:31 | service | Vector for person with id: 1 inserted into milvus db.
+INFO:     | 2023-10-20 04:57:32 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-20 04:57:32 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-20 04:57:32 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-20 04:57:32 | app | recognizing faces fininshed!
+INFO:     | 2023-10-20 05:03:54 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-20 05:03:54 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-20 05:03:54 | service | img distance with person: 1 is 0.0998590886592865
+INFO:     | 2023-10-20 05:03:54 | service | detected face matches id: 1
+INFO:     | 2023-10-20 05:03:54 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-20 05:03:54 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-20 05:03:54 | app | recognizing faces fininshed!
+INFO:     | 2023-10-20 06:29:45 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-20 06:29:45 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-20 06:29:48 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-20 06:29:48 | app | recognizing faces fininshed!
+INFO:     | 2023-10-20 06:29:52 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-20 06:29:52 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-20 06:29:52 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-20 06:29:52 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:40:55 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:40:55 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:40:55 | service | img distance with person: 2 is 0.13118553161621094
+INFO:     | 2023-10-21 06:40:55 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:40:55 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:40:55 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:40:55 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:41:07 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:41:07 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:41:07 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-21 06:41:07 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:41:10 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:41:10 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:41:10 | service | img distance with person: 2 is 0.17905399203300476
+INFO:     | 2023-10-21 06:41:10 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:41:10 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:41:10 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:41:10 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:41:13 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:41:13 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:41:13 | service | img distance with person: 2 is 0.1629657745361328
+INFO:     | 2023-10-21 06:41:13 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:41:13 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:41:13 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:41:13 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:43:39 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:43:39 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:43:40 | service | img distance with person: 2 is 0.15500494837760925
+INFO:     | 2023-10-21 06:43:40 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:43:40 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:43:40 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:43:40 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:43:44 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:43:44 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:43:44 | service | img distance with person: 2 is 0.1548231542110443
+INFO:     | 2023-10-21 06:43:44 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:43:44 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:43:44 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:43:44 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:43:57 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:43:57 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:43:58 | service | img distance with person: 2 is 0.19723471999168396
+INFO:     | 2023-10-21 06:43:58 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:43:58 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:43:58 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:43:58 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:44:01 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:44:01 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:44:01 | service | img distance with person: 2 is 0.19064444303512573
+INFO:     | 2023-10-21 06:44:01 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:44:01 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:44:01 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:44:01 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:44:10 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:44:10 | mysql_api | SELECT * FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:44:10 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:44:13 | service | Vector for person with id: 0 inserted into milvus db.
+INFO:     | 2023-10-21 06:44:56 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:44:56 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:44:57 | service | img distance with person: 0 is 0.03951270878314972
+INFO:     | 2023-10-21 06:44:57 | service | detected face matches id: 0
+INFO:     | 2023-10-21 06:44:57 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:44:57 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:44:57 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:45:08 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:45:08 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:45:08 | service | img distance with person: 2 is 0.09322957694530487
+INFO:     | 2023-10-21 06:45:08 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:45:08 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:45:08 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:45:08 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:45:18 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:45:18 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:45:18 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-21 06:45:18 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:46:00 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:46:00 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:46:01 | service | img distance with person: 2 is 0.11887143552303314
+INFO:     | 2023-10-21 06:46:01 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:46:01 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:46:01 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:46:01 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:46:14 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:46:14 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:46:15 | service | img distance with person: 0 is 0.12495946884155273
+INFO:     | 2023-10-21 06:46:15 | service | detected face matches id: 0
+INFO:     | 2023-10-21 06:46:15 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:46:15 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:46:15 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:46:30 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:46:30 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:46:31 | service | img distance with person: 0 is 0.14367911219596863
+INFO:     | 2023-10-21 06:46:31 | service | detected face matches id: 0
+INFO:     | 2023-10-21 06:46:31 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:46:31 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:46:31 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:47:07 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:07 | mysql_api | SELECT * FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:47:07 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:47:10 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-21 06:47:27 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:27 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:27 | service | img distance with person: 2 is 0.01982121728360653
+INFO:     | 2023-10-21 06:47:27 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:47:27 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:47:27 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:47:27 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:47:46 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:46 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:47 | service | img distance with person: 2 is 0.024224722757935524
+INFO:     | 2023-10-21 06:47:47 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:47:47 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:47:47 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:47:47 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:47:54 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:54 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:54 | service | img distance with person: 2 is 0.028940312564373016
+INFO:     | 2023-10-21 06:47:54 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:47:54 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:47:54 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:47:54 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:47:56 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:56 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:56 | service | img distance with person: 2 is 0.028241917490959167
+INFO:     | 2023-10-21 06:47:56 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:47:56 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:47:56 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:47:56 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:47:59 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:47:59 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:48:00 | service | img distance with person: 2 is 0.028951991349458694
+INFO:     | 2023-10-21 06:48:00 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:48:00 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:48:00 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:48:00 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:49:36 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:49:36 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:49:36 | service | img distance with person: 2 is 0.021133165806531906
+INFO:     | 2023-10-21 06:49:36 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:49:36 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:49:36 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:49:36 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:49:46 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:49:46 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:49:46 | service | img distance with person: 2 is 0.017475785687565804
+INFO:     | 2023-10-21 06:49:46 | service | detected face matches id: 2
+INFO:     | 2023-10-21 06:49:46 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:49:46 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:49:46 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:49:59 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:49:59 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:50:00 | service | img distance with person: 0 is 0.04945841431617737
+INFO:     | 2023-10-21 06:50:00 | service | detected face matches id: 0
+INFO:     | 2023-10-21 06:50:00 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:50:00 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:50:00 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:51:37 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:51:37 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:51:37 | service | img distance with person: 0 is 0.1084456816315651
+INFO:     | 2023-10-21 06:51:37 | service | detected face matches id: 0
+INFO:     | 2023-10-21 06:51:37 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:51:37 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:51:37 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:51:50 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 06:51:50 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 06:51:50 | service | img distance with person: 0 is 0.13880419731140137
+INFO:     | 2023-10-21 06:51:50 | service | detected face matches id: 0
+INFO:     | 2023-10-21 06:51:50 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:51:50 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:51:50 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 06:56:08 | app | cache face to recognize-> app/.data/p1_2.jpeg.jpg
+INFO:     | 2023-10-21 06:56:08 | app | recognizing img app/.data/p1_2.jpeg.jpg
+INFO:     | 2023-10-21 06:56:11 | service | img distance with person: 1 is 0.08341860771179199
+INFO:     | 2023-10-21 06:56:11 | service | detected face matches id: 1
+INFO:     | 2023-10-21 06:56:11 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 06:56:11 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 06:56:11 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:08:27 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:08:27 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:08:27 | service | img distance with person: 0 is 0.07652287185192108
+INFO:     | 2023-10-21 07:08:27 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:08:27 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 07:08:27 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 07:08:27 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:20:17 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:20:17 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:20:17 | service | img distance with person: 2 is 0.06906913220882416
+INFO:     | 2023-10-21 07:20:17 | service | detected face matches id: 2
+INFO:     | 2023-10-21 07:20:17 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+ERROR:    | 2023-10-21 07:20:17 | mysql_api | (0, ''): mysql record retrieval failed
+INFO:     | 2023-10-21 07:20:17 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:26:46 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-21 07:27:36 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-21 07:27:36 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-21 07:27:49 | service | img distance with person: 4 is 0.22555460035800934
+INFO:     | 2023-10-21 07:27:49 | service | no similar faces were found in the database
+INFO:     | 2023-10-21 07:27:50 | service | img distance with person: 1 is 0.06719061732292175
+INFO:     | 2023-10-21 07:27:50 | service | detected face matches id: 1
+INFO:     | 2023-10-21 07:27:50 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:27:50 | mysql_api | Person avatar with id: 1 retrieved from mysql db.
+INFO:     | 2023-10-21 07:27:50 | service | img distance with person: 1 is 0.20787346363067627
+INFO:     | 2023-10-21 07:27:50 | service | no similar faces were found in the database
+INFO:     | 2023-10-21 07:27:50 | service | img distance with person: 4 is 0.1861223578453064
+INFO:     | 2023-10-21 07:27:50 | service | detected face matches id: 4
+INFO:     | 2023-10-21 07:27:50 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:27:50 | mysql_api | Person avatar with id: 4 retrieved from mysql db.
+INFO:     | 2023-10-21 07:27:50 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:29:26 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-21 07:30:14 | app | cache face to recognize-> app/.data/p2.jpeg.jpg
+INFO:     | 2023-10-21 07:30:14 | app | recognizing img app/.data/p2.jpeg.jpg
+INFO:     | 2023-10-21 07:30:27 | service | img distance with person: 1 is 0.21544179320335388
+INFO:     | 2023-10-21 07:30:27 | service | no similar faces were found in the database
+INFO:     | 2023-10-21 07:30:27 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:30:58 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-21 07:30:58 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-21 07:31:01 | service | img distance with person: 4 is 0.22555460035800934
+INFO:     | 2023-10-21 07:31:01 | service | no similar faces were found in the database
+INFO:     | 2023-10-21 07:31:02 | service | img distance with person: 1 is 0.06719061732292175
+INFO:     | 2023-10-21 07:31:02 | service | detected face matches id: 1
+INFO:     | 2023-10-21 07:31:02 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:31:02 | mysql_api | Person avatar with id: 1 retrieved from mysql db.
+INFO:     | 2023-10-21 07:31:02 | service | img distance with person: 1 is 0.20787346363067627
+INFO:     | 2023-10-21 07:31:02 | service | no similar faces were found in the database
+INFO:     | 2023-10-21 07:31:02 | service | img distance with person: 4 is 0.1861223578453064
+INFO:     | 2023-10-21 07:31:02 | service | no similar faces were found in the database
+INFO:     | 2023-10-21 07:31:02 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:32:19 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:32:19 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:32:23 | service | img distance with person: 0 is 0.09207089990377426
+INFO:     | 2023-10-21 07:32:23 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:32:23 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+WARNING:  | 2023-10-21 07:32:23 | mysql_api | mysql record with id: 0 does not exist.
+INFO:     | 2023-10-21 07:32:23 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:32:51 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:32:51 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:32:51 | service | img distance with person: 0 is 0.08636055141687393
+INFO:     | 2023-10-21 07:32:51 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:32:51 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+WARNING:  | 2023-10-21 07:32:51 | mysql_api | mysql record with id: 0 does not exist.
+INFO:     | 2023-10-21 07:32:51 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:33:04 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:33:04 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:33:07 | service | img distance with person: 0 is 0.09525088965892792
+INFO:     | 2023-10-21 07:33:07 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:33:07 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+WARNING:  | 2023-10-21 07:33:07 | mysql_api | mysql record with id: 0 does not exist.
+INFO:     | 2023-10-21 07:33:07 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:33:26 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:33:26 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:33:26 | service | img distance with person: 0 is 0.07503867894411087
+INFO:     | 2023-10-21 07:33:26 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:33:26 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+WARNING:  | 2023-10-21 07:33:26 | mysql_api | mysql record with id: 0 does not exist.
+INFO:     | 2023-10-21 07:33:26 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:34:28 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:28 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:29 | service | img distance with person: 0 is 0.09945517778396606
+INFO:     | 2023-10-21 07:34:29 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:34:29 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+WARNING:  | 2023-10-21 07:34:29 | mysql_api | mysql record with id: 0 does not exist.
+INFO:     | 2023-10-21 07:34:29 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:34:45 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:45 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:45 | service | img distance with person: 0 is 0.0469869039952755
+INFO:     | 2023-10-21 07:34:45 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:34:45 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+WARNING:  | 2023-10-21 07:34:45 | mysql_api | mysql record with id: 0 does not exist.
+INFO:     | 2023-10-21 07:34:45 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:34:48 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:48 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:49 | service | img distance with person: 0 is 0.04463750869035721
+INFO:     | 2023-10-21 07:34:49 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:34:49 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:34:49 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 07:34:49 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:34:51 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:51 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:34:52 | service | img distance with person: 0 is 0.03585100173950195
+INFO:     | 2023-10-21 07:34:52 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:34:52 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:34:52 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 07:34:52 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:35:02 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:35:02 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:35:03 | service | img distance with person: 0 is 0.05280476436018944
+INFO:     | 2023-10-21 07:35:03 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:35:03 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:35:03 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 07:35:03 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:35:33 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:35:33 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:35:37 | service | img distance with person: 0 is 0.06930691748857498
+INFO:     | 2023-10-21 07:35:37 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:35:37 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:35:37 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 07:35:37 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:35:43 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:35:43 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:35:43 | service | img distance with person: 0 is 0.07901082932949066
+INFO:     | 2023-10-21 07:35:43 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:35:43 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:35:43 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 07:35:43 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:37:04 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:37:04 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:37:05 | service | img distance with person: 0 is 0.08854244649410248
+INFO:     | 2023-10-21 07:37:05 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:37:05 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:37:05 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 07:37:05 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:37:13 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 07:37:13 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 07:37:13 | service | img distance with person: 0 is 0.059623729437589645
+INFO:     | 2023-10-21 07:37:13 | service | detected face matches id: 0
+INFO:     | 2023-10-21 07:37:13 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 07:37:13 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 07:37:13 | app | recognizing faces fininshed!

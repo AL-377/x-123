@@ -44,6 +44,7 @@ MYSQL_DATABASE = os.getenv("MYSQL_DATABASE", default="xface")
 MYSQL_PERSON_TABLE = os.getenv("MYSQL_PERSON_TABLE", default="person")
 # table where ops will be run on
 MYSQL_CUR_TABLE = os.getenv("MYSQL_CUR_TABLE", default=MYSQL_PERSON_TABLE)
+MYSQL_POOL_SIZE = os.getenv("MYSQL_POOL_SIZE",default=10)
 
 # milvus conf
 MILVUS_HOST = os.getenv("MILVUS_HOST", default="127.0.0.1")
@@ -59,5 +60,5 @@ FACE_SEARCH_NPROBE = 2056
 
 # face conf
 FACE_DET_THRESHOLD = 0.3
-FACE_DIST_THRESHOLD = 0.2
+FACE_DIST_THRESHOLD = 0.15
 
