@@ -1410,3 +1410,35 @@ INFO:     | 2023-10-21 07:37:13 | service | detected face matches id: 0
 INFO:     | 2023-10-21 07:37:13 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
 INFO:     | 2023-10-21 07:37:13 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
 INFO:     | 2023-10-21 07:37:13 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 07:41:32 | milvus_api | Collection faces present already.
+INFO:     | 2023-10-21 08:12:06 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 08:12:06 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 08:12:19 | service | img distance with person: 0 is 0.09899258613586426
+INFO:     | 2023-10-21 08:12:19 | service | detected face matches id: 0
+INFO:     | 2023-10-21 08:12:19 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 08:12:19 | mysql_api | Person avatar with id: 0 retrieved from mysql db.
+INFO:     | 2023-10-21 08:12:19 | app | recognizing faces fininshed!
+INFO:     | 2023-10-21 11:36:00 | app | cache face to register-> app/.data/2.png.jpg
+INFO:     | 2023-10-21 11:36:00 | mysql_api | SELECT * FROM person WHERE id = %s
+INFO:     | 2023-10-21 11:36:00 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-21 11:36:53 | app | save avatar -> volumes/avatars/2.png.jpg
+INFO:     | 2023-10-21 11:36:53 | mysql_api | SELECT * FROM person WHERE id = %s
+INFO:     | 2023-10-21 11:36:53 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-21 11:36:53 | mysql_api | UPDATE person SET avatar_url = %s WHERE id = %s
+INFO:     | 2023-10-21 11:36:53 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-21 11:40:06 | app | cache face to register-> app/.data/blob.jpg
+INFO:     | 2023-10-21 11:40:06 | mysql_api | SELECT * FROM person WHERE id = %s
+INFO:     | 2023-10-21 11:40:06 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-21 11:40:09 | service | Vector for person with id: 2 inserted into milvus db.
+INFO:     | 2023-10-21 11:40:16 | app | save avatar -> volumes/avatars/2.png.jpg
+INFO:     | 2023-10-21 11:40:16 | mysql_api | SELECT * FROM person WHERE id = %s
+INFO:     | 2023-10-21 11:40:16 | mysql_api | Person with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-21 11:40:16 | mysql_api | UPDATE person SET avatar_url = %s WHERE id = %s
+INFO:     | 2023-10-21 11:40:16 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-21 11:40:24 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-21 11:40:24 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-21 11:40:27 | service | img distance with person: 2 is 0.028067348524928093
+INFO:     | 2023-10-21 11:40:27 | service | detected face matches id: 2
+INFO:     | 2023-10-21 11:40:27 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
+INFO:     | 2023-10-21 11:40:27 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
+INFO:     | 2023-10-21 11:40:27 | app | recognizing faces fininshed!

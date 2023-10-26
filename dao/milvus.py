@@ -29,7 +29,7 @@ def get_milvus_collec_conn(
 
     if not utility.has_collection(collection_name):
         fields = [
-            FieldSchema(name="person_id", dtype=DataType.INT64,
+            FieldSchema(name="person_id", dtype=DataType.VARCHAR,
                         description="persons unique id", is_primary=True, auto_id=False),
             FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR,
                         description="embedding vectors", dim=vector_dim)
@@ -58,11 +58,11 @@ def get_milvus_collec_conn(
     return milvus_collec_conn
 
 
-def get_registered_person_milvus(milvus_collec_conn, person_id: int, output_fields: List[str]) -> dict:
+def get_registered_person_milvus(milvus_collec_conn, person_id: str, output_fields: List[str]) -> dict:
     """
     Get registered data record by person_id.
     Arguments:
-        person_id: int = number,
+        person_id: str = varchar,
         output_fields: list[str] = ["person_id", "embedding"]
     """
     expr = f'person_id == {person_id}'

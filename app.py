@@ -14,7 +14,12 @@ from entity.model import RegFacResult, RegAvaResult,RecResult
 from config import (DOWNLOAD_AVATAR_PATH,DOWNLOAD_CACHE_PATH,
                     SERVER_IP,SERVER_PORT,FACE_DET_THRESHOLD,
                     FACE_DIST_THRESHOLD)
-from service import register_person_avatar,register_person_face,recognize_person,unregister_person
+from service import (register_person_avatar,
+                    insert_person_avatar,
+                    register_person_face,
+                    recognize_person,
+                    unregister_person,
+                    get_person_avatars)
 import os
 import logging
 
@@ -40,8 +45,50 @@ async def get_avatar(filename: str):
     file_path = f"{DOWNLOAD_AVATAR_PATH}/{filename}"
     return FileResponse(file_path)
 
+@app.get("/users/{user_id}/avatars",status_code=200)
+async def get_user_avatars(user_id:str, response: Response):
+    res = {"status":"success","user_id":user_id}
+    try:
+        db_res = get_person_avatars(user_id)
+        logger.info(f"get avatars of user{user_id} res:{db_res}")
+    except Exception as e:
+        logger.error(f"fail to get avatars of user: {user_id}")
+        res["status"]="failed"
+        response.status_code = 404
+    return res
+
+@app.post("/users/{user_id}/avatar",status_code=200)
+async def add_user_avatar(user_id:str, img: UploadFile,response: Response):
+    res = {"status":"success","user_id":user_id}
+    try:
+        img_name = img.filename
+        if img_name[-4:] != ".jpg":
+            img_name += user_id + "_.jpg"
+        else:
+            img_name = img_name[:-4] + user_id + "_.jpg"
+        save_path = os.path.join(DOWNLOAD_AVATAR_PATH, img_name)
+        contents = await img.read()
+        with open(save_path, "wb") as f:
+            f.write(contents)
+        logger.info(f"save avatar -> {save_path}")
+    except Exception as e:
+        logger.error(f"error add avatar: {e}")
+        response.status_code = 404
+        res["status"] = "failed"
+    else:
+        # save user and avatar into mysql
+        db_res = insert_person_avatar({"id":user_id},save_path)
+        res["status"] = db_res["status"]
+        if res["status"] == "success":
+            res["img_url"] = "/avatars/"+img_name
+    return res
+
+    return res
+
+
+
 @app.post("/register/face/{user_id}", response_model=RegFacResult, status_code=200)
-async def register_face(user_id: int, img: UploadFile, response: Response):
+async def register_face(user_id: str, img: UploadFile, response: Response):
     res = {"status": "success", "user_id": user_id}
     try:
         img_name = img.filename
@@ -68,12 +115,14 @@ async def register_face(user_id: int, img: UploadFile, response: Response):
     return res
 
 @app.post("/register/avatar/{user_id}", response_model=RegAvaResult, status_code=200)
-async def register_avatar(user_id: int, img: UploadFile, response: Response):
+async def register_avatar(user_id: str, img: UploadFile, response: Response):
     res = {"status": "success", "user_id": user_id,"img_url":""}
     try:
         img_name = img.filename
-        if ".jpg" not in img_name:
-            img_name += ".jpg"
+        if img_name[-4:] != ".jpg":
+            img_name += user_id + "_.jpg"
+        else:
+            img_name = img_name[:-4] + user_id + "_.jpg"
         save_path = os.path.join(DOWNLOAD_AVATAR_PATH, img_name)
         contents = await img.read()
         with open(save_path, "wb") as f:
@@ -92,14 +141,14 @@ async def register_avatar(user_id: int, img: UploadFile, response: Response):
     return res
 
 @app.post("/unregister/{user_id}",status_code=200)
-async def unregister_person_by_id(user_id:int,response: Response):
+async def unregister_person_by_id(user_id:str,response: Response):
     res = unregister_person(user_id)
     if res["status"]!="success":
         response.status_code = 404
     return res
 
 @app.post("/recognize/face/{user_id}",response_model=RecResult,status_code=200)
-async def recognize_faces(user_id: int, img: UploadFile, response: Response):
+async def recognize_faces(user_id: str, img: UploadFile, response: Response):
     res = {"status": "success", "user_id": user_id,"avatar_pairs":[]}
 
     try:

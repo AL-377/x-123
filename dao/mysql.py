@@ -7,12 +7,12 @@ import pymysql
 logger = logging.getLogger('mysql_api')
 
 
-def update_avatar_url_in_sql(mysql_conn, mysql_tb, person_id, avatar_url, commit=True):
+def update_default_avatar_url_in_sql(mysql_conn, mysql_tb, person_id, avatar_url, commit=True):
     """
     Update avatar_url of a person in a MySQL table
     Note: the transaction must be committed after if commit is False
     """
-    query = f"UPDATE {mysql_tb} SET avatar_url = %s WHERE id = %s"
+    query = f"UPDATE {mysql_tb} SET avatar_url = %s WHERE id = %s and is_default = 1"
     logger.info(query)
     values = (avatar_url, person_id)
     try:
@@ -58,7 +58,33 @@ def insert_person_data_into_sql(mysql_conn, mysql_tb, person_data: dict, commit:
                 "message": "mysql record insertion error"}
 
 
-def select_person_avatar_from_sql_with_id(mysql_conn, mysql_tb, person_id: int) -> dict:
+def select_person_default_avatar_from_sql_with_id(mysql_conn, mysql_tb, person_id: str) -> dict:
+    """
+    Query mysql db to get person avatar using the uniq person_id
+    """
+    query = f"SELECT avatar_url FROM {mysql_tb} WHERE id = %s and is_default = 1"
+    logger.info(query)
+    values = person_id
+    try:
+        with mysql_conn.cursor() as cursor:
+            cursor.execute(query, values)
+            person_data = cursor.fetchone()
+            if person_data is None:
+                logger.warning("mysql record with id: %s does not exist.", person_id)
+                return {"status": "failed",
+                        "message": f"mysql record with id: {person_id} does not exist"}
+            logger.info("Person avatar with id: %s retrieved from mysql db.", person_id)
+            return {"status": "success",
+                    "message": f"record matching id: {person_id} retrieved from mysql db",
+                    "avatar": person_data
+                    }  # 将结果中的avatar字段作为字典返回
+    except pymysql.Error as excep:
+        logger.error("%s: mysql record retrieval failed", excep)
+        return {"status": "failed",
+                "message": "mysql record retrieval error"}
+
+
+def select_person_avatar_from_sql_with_id(mysql_conn, mysql_tb, person_id: str) -> dict:
     """
     Query mysql db to get  person avatar using the uniq person_id
     """
@@ -84,7 +110,8 @@ def select_person_avatar_from_sql_with_id(mysql_conn, mysql_tb, person_id: int) 
                 "message": "mysql record retrieval error"}
 
 
-def select_person_data_from_sql_with_id(mysql_conn, mysql_tb, person_id: int) -> dict:
+
+def select_person_data_from_sql_with_id(mysql_conn, mysql_tb, person_id: str) -> dict:
     """
     Query mysql db to get full person data using the uniq person_id
     """
@@ -135,7 +162,7 @@ def select_all_person_data_from_sql(mysql_conn, mysql_tb) -> dict:
                 "message": "mysql record retrieval error"}
 
 
-def delete_person_data_from_sql_with_id(mysql_conn, mysql_tb, person_id: int, commit: bool = True) -> dict:
+def delete_person_data_from_sql_with_id(mysql_conn, mysql_tb, person_id: str, commit: bool = True) -> dict:
     """
     Delete record from mysql db using the uniq person_id
     """
