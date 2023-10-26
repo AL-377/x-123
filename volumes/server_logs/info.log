@@ -1442,3 +1442,236 @@ INFO:     | 2023-10-21 11:40:27 | service | detected face matches id: 2
 INFO:     | 2023-10-21 11:40:27 | mysql_api | SELECT avatar_url FROM person WHERE id = %s
 INFO:     | 2023-10-21 11:40:27 | mysql_api | Person avatar with id: 2 retrieved from mysql db.
 INFO:     | 2023-10-21 11:40:27 | app | recognizing faces fininshed!
+ERROR:    | 2023-10-26 02:23:47 | pymilvus.decorators | RPC error: [create_collection], <MilvusException: (code=1, message=type param(max_length) should be specified for varChar field of collection faces_v2)>, <Time:{'RPC start': '2023-10-26 02:23:47.888010', 'RPC error': '2023-10-26 02:23:47.889888'}>
+INFO:     | 2023-10-26 02:32:01 | milvus_api | Collection faces_v2 created.
+INFO:     | 2023-10-26 02:32:01 | milvus_api | Indexing the Collection...
+INFO:     | 2023-10-26 02:32:01 | milvus_api | Collection faces_v2 indexed.
+INFO:     | 2023-10-26 02:34:06 | app | save avatar -> volumes/avatars/avatar.pngaidan_.jpg
+INFO:     | 2023-10-26 02:34:06 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 02:34:06 | mysql_api | mysql record with id: aidan does not exist.
+INFO:     | 2023-10-26 02:34:06 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 02:34:06 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 02:42:31 | app | save avatar -> volumes/avatars/avatar.pngaidan_lew_.jpg
+INFO:     | 2023-10-26 02:42:31 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 02:42:31 | mysql_api | mysql record with id: aidan_lew does not exist.
+INFO:     | 2023-10-26 02:42:31 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 02:42:31 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 02:47:31 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 02:48:00 | app | save avatar -> volumes/avatars/avatar.pngaidan3_.jpg
+INFO:     | 2023-10-26 02:48:00 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 02:48:00 | mysql_api | mysql record with id: aidan3 does not exist.
+INFO:     | 2023-10-26 02:48:00 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 02:48:00 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 02:55:18 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 02:56:50 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 02:57:27 | app | save avatar -> volumes/avatars/avatar.pngaidan3_.jpg
+INFO:     | 2023-10-26 02:57:27 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 02:57:27 | mysql_api | mysql record with id: aidan3 does not exist.
+INFO:     | 2023-10-26 02:57:27 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 02:57:27 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 02:57:27 | service | after register_person_avatar insert! success
+INFO:     | 2023-10-26 03:05:01 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 04:11:29 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 04:11:50 | app | save avatar -> volumes/avatars/avatar.pngaidan34_.jpg
+INFO:     | 2023-10-26 04:11:50 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 04:11:50 | mysql_api | mysql record with id: aidan34 does not exist.
+INFO:     | 2023-10-26 04:11:50 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 04:11:50 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 04:11:50 | service | after register_person_avatar insert! success
+INFO:     | 2023-10-26 04:13:01 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 04:13:17 | app | save avatar -> volumes/avatars/avatar.pngaidan345_.jpg
+INFO:     | 2023-10-26 04:13:17 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 04:13:17 | mysql_api | mysql record with id: aidan345 does not exist.
+INFO:     | 2023-10-26 04:13:17 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 04:13:17 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 04:13:17 | service | after register_person_avatar insert! success
+INFO:     | 2023-10-26 04:21:29 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 04:22:14 | app | save avatar -> volumes/avatars/avatar.pngaidan4563_.jpg
+INFO:     | 2023-10-26 04:22:14 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 04:22:14 | mysql_api | mysql record with id: aidan4563 does not exist.
+INFO:     | 2023-10-26 04:22:14 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 04:22:14 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 04:22:14 | service | after register_person_avatar insert!
+INFO:     | 2023-10-26 04:29:10 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 04:29:40 | app | save avatar -> volumes/avatars/avatar.pngaidan356478_.jpg
+INFO:     | 2023-10-26 04:29:40 | mysql_api | SELECT * FROM person WHERE id = %s
+WARNING:  | 2023-10-26 04:29:40 | mysql_api | mysql record with id: aidan356478 does not exist.
+INFO:     | 2023-10-26 04:29:40 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 04:29:40 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 04:29:40 | service | after register_person_avatar insert!
+INFO:     | 2023-10-26 04:31:45 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 04:33:18 | app | save avatar -> volumes/avatars/avatar.pngaidan37_.jpg
+INFO:     | 2023-10-26 04:33:18 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 04:33:18 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 04:34:33 | app | save avatar -> volumes/avatars/a1.pngaidan37_.jpg
+INFO:     | 2023-10-26 04:34:33 | mysql_api | INSERT INTO person (id, avatar_url, is_default) VALUES (%s, %s, %s)
+ERROR:    | 2023-10-26 04:34:33 | mysql_api | (1062, "Duplicate entry 'aidan37' for key 'person.PRIMARY'"): mysql record insert failed
+INFO:     | 2023-10-26 07:45:01 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 07:46:41 | app | save avatar -> volumes/avatars/avatar.png_test1.jpg
+INFO:     | 2023-10-26 07:46:41 | mysql_api | SELECT * FROM person WHERE person_id = %s
+ERROR:    | 2023-10-26 07:46:41 | mysql_api | (1054, "Unknown column 'person_id' in 'where clause'"): mysql record retrieval failed
+INFO:     | 2023-10-26 07:46:41 | mysql_api | INSERT INTO person (user_id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 07:46:41 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 07:46:41 | service | after register_person_avatar insert!
+INFO:     | 2023-10-26 07:46:41 | service | commit finished!
+INFO:     | 2023-10-26 11:28:04 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 11:28:40 | app | save avatar -> volumes/avatars/avatar.png_test2.jpg
+INFO:     | 2023-10-26 11:28:40 | mysql_api | SELECT * FROM person WHERE user_id = %s
+WARNING:  | 2023-10-26 11:28:40 | mysql_api | mysql record with person_id: test2 does not exist.
+INFO:     | 2023-10-26 11:28:40 | mysql_api | INSERT INTO person (user_id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 11:28:40 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 11:28:40 | service | after register_person_avatar insert!
+INFO:     | 2023-10-26 11:28:40 | service | commit finished!
+INFO:     | 2023-10-26 11:36:19 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 11:36:43 | app | save avatar -> volumes/avatars/avatar.png_test3.jpg
+INFO:     | 2023-10-26 11:36:43 | mysql_api | SELECT * FROM person WHERE user_id = %s
+WARNING:  | 2023-10-26 11:36:43 | mysql_api | mysql record with person_id: test3 does not exist.
+INFO:     | 2023-10-26 11:36:43 | mysql_api | INSERT INTO person (user_id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 11:36:43 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 11:36:43 | service | after register_person_avatar insert!
+INFO:     | 2023-10-26 11:36:43 | service | commit finished!
+INFO:     | 2023-10-26 11:36:43 | app | get db_res {'status': 'success'}
+INFO:     | 2023-10-26 11:37:04 | app | save avatar -> volumes/avatars/avatar.png_test3.jpg
+INFO:     | 2023-10-26 11:37:04 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 11:37:04 | mysql_api | Person with person_id: test3 retrieved from mysql db.
+INFO:     | 2023-10-26 11:37:04 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 11:37:04 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 11:37:04 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 11:37:50 | app | save avatar -> volumes/avatars/a1.png_test3.jpg
+INFO:     | 2023-10-26 11:37:50 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 11:37:50 | mysql_api | Person with person_id: test3 retrieved from mysql db.
+INFO:     | 2023-10-26 11:37:50 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 11:37:50 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 11:37:50 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 11:39:14 | app | save avatar -> volumes/avatars/avatar.png_test3.jpg
+INFO:     | 2023-10-26 11:47:01 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 11:47:32 | app | save avatar -> volumes/avatars/avatar.png_test3.jpg
+INFO:     | 2023-10-26 11:47:32 | mysql_api | INSERT INTO person (user_id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 11:47:32 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 11:49:16 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+WARNING:  | 2023-10-26 11:49:16 | mysql_api | mysql record with person_id: test0 does not exist.
+INFO:     | 2023-10-26 11:49:16 | app | get avatars of usertest0 res:{'status': 'failed', 'message': 'mysql record with person_id: test0 does not exist'}
+INFO:     | 2023-10-26 11:50:45 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 11:50:45 | mysql_api | Person avatar with person_id: test3 retrieved from mysql db.
+INFO:     | 2023-10-26 11:50:45 | app | get avatars of usertest3 res:{'status': 'success', 'message': 'record matching person_id: test3 retrieved from mysql db', 'avatar': {'avatar_url': 'volumes/avatars/a1.png_test3.jpg'}}
+INFO:     | 2023-10-26 11:52:03 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 11:52:03 | mysql_api | Person avatar with person_id: test3 retrieved from mysql db.
+INFO:     | 2023-10-26 11:52:03 | app | get avatars of usertest3 res:{'status': 'success', 'message': 'record matching person_id: test3 retrieved from mysql db', 'avatar': {'avatar_url': 'volumes/avatars/a1.png_test3.jpg'}}
+INFO:     | 2023-10-26 11:55:28 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 11:55:38 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 11:55:38 | mysql_api | Person avatar with person_id: test0 retrieved from mysql db.
+INFO:     | 2023-10-26 11:55:38 | app | get avatars of usertest0 res:{'status': 'success', 'message': 'record matching person_id: test0 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-26 11:56:13 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 11:56:13 | mysql_api | Person avatar with person_id: test1 retrieved from mysql db.
+INFO:     | 2023-10-26 11:56:13 | app | get avatars of usertest1 res:{'status': 'success', 'message': 'record matching person_id: test1 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/avatar.png_test1.jpg'}]}
+INFO:     | 2023-10-26 11:56:32 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 11:56:32 | mysql_api | Person avatar with person_id: test3 retrieved from mysql db.
+INFO:     | 2023-10-26 11:56:32 | app | get avatars of usertest3 res:{'status': 'success', 'message': 'record matching person_id: test3 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/a1.png_test3.jpg'}, {'avatar_url': 'volumes/avatars/avatar.png_test3.jpg'}]}
+INFO:     | 2023-10-26 11:59:10 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 12:02:28 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:02:28 | mysql_api | Person avatar with person_id: test0 retrieved from mysql db.
+INFO:     | 2023-10-26 12:02:28 | app | get avatars of usertest0 res:{'status': 'success', 'message': 'record matching person_id: test0 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-26 12:02:33 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:02:33 | mysql_api | Person avatar with person_id: test1 retrieved from mysql db.
+INFO:     | 2023-10-26 12:02:33 | app | get avatars of usertest1 res:{'status': 'success', 'message': 'record matching person_id: test1 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/avatar.png_test1.jpg'}]}
+INFO:     | 2023-10-26 12:02:37 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:02:37 | mysql_api | Person avatar with person_id: test3 retrieved from mysql db.
+INFO:     | 2023-10-26 12:02:37 | app | get avatars of usertest3 res:{'status': 'success', 'message': 'record matching person_id: test3 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/a1.png_test3.jpg'}, {'avatar_url': 'volumes/avatars/avatar.png_test3.jpg'}]}
+INFO:     | 2023-10-26 12:09:05 | app | save avatar -> volumes/avatars/avatar.png_test0.jpg
+INFO:     | 2023-10-26 12:09:05 | mysql_api | INSERT INTO person (user_id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 12:09:05 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 12:09:41 | app | cache face to register-> app/.data/avatar.png.jpg
+INFO:     | 2023-10-26 12:09:41 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:09:41 | mysql_api | Person with person_id: test0 retrieved from mysql db.
+INFO:     | 2023-10-26 12:10:50 | app | save avatar -> volumes/avatars/avatar.png_test0.jpg
+INFO:     | 2023-10-26 12:10:50 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:10:50 | mysql_api | Person with person_id: test0 retrieved from mysql db.
+INFO:     | 2023-10-26 12:10:50 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 12:10:50 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 12:10:50 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 12:14:25 | app | save avatar -> volumes/avatars/github.jpeg_test0.jpg
+INFO:     | 2023-10-26 12:14:25 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:14:25 | mysql_api | Person with person_id: test0 retrieved from mysql db.
+INFO:     | 2023-10-26 12:14:25 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 12:14:25 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 12:14:25 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 12:18:11 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 12:18:58 | app | save avatar -> volumes/avatars/github.jpeg_aidanlew.jpg
+INFO:     | 2023-10-26 12:18:58 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:18:58 | mysql_api | Person with person_id: aidanlew retrieved from mysql db.
+INFO:     | 2023-10-26 12:18:58 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 12:18:58 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 12:18:58 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 12:19:35 | app | cache face to register-> app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-26 12:19:35 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:19:35 | mysql_api | Person with person_id: aidanlew retrieved from mysql db.
+ERROR:    | 2023-10-26 12:19:48 | pymilvus.decorators | RPC error: [delete], <MilvusException: (code=1, message=Failed to get primary keys from expr: failed to create expr plan, expr = person_id in [aidanlew])>, <Time:{'RPC start': '2023-10-26 12:19:48.113989', 'RPC error': '2023-10-26 12:19:48.117014'}>
+INFO:     | 2023-10-26 12:19:48 | service | Vector for person with id: aidanlew inserted into milvus db.
+INFO:     | 2023-10-26 12:23:03 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-26 12:23:03 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-26 12:23:06 | service | img distance with person: aidanlew is 0.25447583198547363
+INFO:     | 2023-10-26 12:23:06 | service | no similar faces were found in the database
+INFO:     | 2023-10-26 12:23:07 | service | img distance with person: aidanlew is 0.06719061732292175
+INFO:     | 2023-10-26 12:23:07 | service | detected face matches id: aidanlew
+INFO:     | 2023-10-26 12:23:07 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+WARNING:  | 2023-10-26 12:23:07 | mysql_api | mysql record with person_id: aidanlew does not exist.
+INFO:     | 2023-10-26 12:23:07 | service | img distance with person: aidanlew is 0.2680279612541199
+INFO:     | 2023-10-26 12:23:07 | service | no similar faces were found in the database
+INFO:     | 2023-10-26 12:23:07 | service | img distance with person: aidanlew is 0.21403013169765472
+INFO:     | 2023-10-26 12:23:07 | service | no similar faces were found in the database
+INFO:     | 2023-10-26 12:23:07 | app | recognizing faces fininshed!
+INFO:     | 2023-10-26 12:24:51 | app | save avatar -> volumes/avatars/github.jpeg_aidanlew.jpg
+INFO:     | 2023-10-26 12:24:51 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:24:51 | mysql_api | Person with person_id: aidanlew retrieved from mysql db.
+INFO:     | 2023-10-26 12:24:51 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 12:24:51 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 12:24:51 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 12:26:51 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-26 12:27:08 | app | save avatar -> volumes/avatars/github.jpeg_aidanlew.jpg
+INFO:     | 2023-10-26 12:27:08 | mysql_api | SELECT * FROM person WHERE user_id = %s
+WARNING:  | 2023-10-26 12:27:08 | mysql_api | mysql record with person_id: aidanlew does not exist.
+INFO:     | 2023-10-26 12:27:08 | mysql_api | INSERT INTO person (user_id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 12:27:08 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 12:27:08 | service | after register_person_avatar insert!
+INFO:     | 2023-10-26 12:27:08 | service | commit finished!
+INFO:     | 2023-10-26 12:27:08 | app | get db_res {'status': 'success'}
+INFO:     | 2023-10-26 12:27:42 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-26 12:27:42 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-26 12:27:55 | service | img distance with person: aidanlew is 0.25447583198547363
+INFO:     | 2023-10-26 12:27:55 | service | no similar faces were found in the database
+INFO:     | 2023-10-26 12:27:55 | service | img distance with person: aidanlew is 0.06719061732292175
+INFO:     | 2023-10-26 12:27:55 | service | detected face matches id: aidanlew
+INFO:     | 2023-10-26 12:27:55 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 12:27:55 | mysql_api | Person avatar with person_id: aidanlew retrieved from mysql db.
+INFO:     | 2023-10-26 12:27:56 | service | img distance with person: aidanlew is 0.2680279612541199
+INFO:     | 2023-10-26 12:27:56 | service | no similar faces were found in the database
+INFO:     | 2023-10-26 12:27:56 | service | img distance with person: aidanlew is 0.21403013169765472
+INFO:     | 2023-10-26 12:27:56 | service | no similar faces were found in the database
+INFO:     | 2023-10-26 12:27:56 | app | recognizing faces fininshed!
+INFO:     | 2023-10-26 12:28:20 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:28:20 | mysql_api | Person avatar with person_id: aidanlew retrieved from mysql db.
+INFO:     | 2023-10-26 12:28:20 | app | get avatars of useraidanlew res:{'status': 'success', 'message': 'record matching person_id: aidanlew retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/github.jpeg_aidanlew.jpg'}]}
+INFO:     | 2023-10-26 12:28:41 | app | save avatar -> volumes/avatars/ps1.jpeg_aidanlew.jpg
+INFO:     | 2023-10-26 12:28:41 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:28:41 | mysql_api | Person with person_id: aidanlew retrieved from mysql db.
+INFO:     | 2023-10-26 12:28:41 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 12:28:41 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 12:28:41 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 12:29:04 | app | save avatar -> volumes/avatars/avatar.png_aidanlew.jpg
+INFO:     | 2023-10-26 12:29:04 | mysql_api | SELECT * FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:29:04 | mysql_api | Person with person_id: aidanlew retrieved from mysql db.
+INFO:     | 2023-10-26 12:29:04 | mysql_api | UPDATE person SET avatar_url = %s WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-26 12:29:04 | mysql_api | avatar_url updated in MySQL db.
+INFO:     | 2023-10-26 12:29:04 | app | get db_res {'status': 'success', 'message': 'avatar_url updated in MySQL db'}
+INFO:     | 2023-10-26 12:29:45 | app | save avatar -> volumes/avatars/a1.png_aidanlew.jpg
+INFO:     | 2023-10-26 12:29:45 | mysql_api | INSERT INTO person (user_id, avatar_url, is_default) VALUES (%s, %s, %s)
+INFO:     | 2023-10-26 12:29:45 | mysql_api | record insertion waiting to be commit to mysql db.
+INFO:     | 2023-10-26 12:30:00 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-26 12:30:00 | mysql_api | Person avatar with person_id: aidanlew retrieved from mysql db.
+INFO:     | 2023-10-26 12:30:00 | app | get avatars of useraidanlew res:{'status': 'success', 'message': 'record matching person_id: aidanlew retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/avatar.png_aidanlew.jpg'}, {'avatar_url': 'volumes/avatars/a1.png_aidanlew.jpg'}]}
+INFO:     | 2023-10-26 12:30:16 | mysql_api | record deletion waiting to be commited to mysql db.
+ERROR:    | 2023-10-26 12:30:16 | pymilvus.decorators | RPC error: [delete], <MilvusException: (code=1, message=Failed to get primary keys from expr: failed to create expr plan, expr = person_id in [aidanlew])>, <Time:{'RPC start': '2023-10-26 12:30:16.575535', 'RPC error': '2023-10-26 12:30:16.577764'}>
+INFO:     | 2023-10-26 12:39:04 | milvus_api | Collection faces_v2 present already.
+ERROR:    | 2023-10-26 12:41:10 | mysql_api | Person with person_id: aa does not exist in mysql db.
+INFO:     | 2023-10-26 12:41:15 | mysql_api | record deletion waiting to be commited to mysql db.
+INFO:     | 2023-10-26 12:41:15 | service | Vector for person with id: aidanlew deleted from milvus db.

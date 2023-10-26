@@ -30,7 +30,7 @@ def get_milvus_collec_conn(
     if not utility.has_collection(collection_name):
         fields = [
             FieldSchema(name="person_id", dtype=DataType.VARCHAR,
-                        description="persons unique id", is_primary=True, auto_id=False),
+                        description="persons unique id", is_primary=True, auto_id=False,max_length=65535),
             FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR,
                         description="embedding vectors", dim=vector_dim)
         ]

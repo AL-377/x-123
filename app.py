@@ -51,21 +51,24 @@ async def get_user_avatars(user_id:str, response: Response):
     try:
         db_res = get_person_avatars(user_id)
         logger.info(f"get avatars of user{user_id} res:{db_res}")
+        res["avatars"] = db_res['avatar']
+        for ra in res["avatars"]:
+            ra["avatar_url"]=ra["avatar_url"][7:]
     except Exception as e:
         logger.error(f"fail to get avatars of user: {user_id}")
         res["status"]="failed"
         response.status_code = 404
     return res
 
-@app.post("/users/{user_id}/avatar",status_code=200)
+@app.post("/users/{user_id}/avatar",response_model=RegAvaResult, status_code=200)
 async def add_user_avatar(user_id:str, img: UploadFile,response: Response):
     res = {"status":"success","user_id":user_id}
     try:
         img_name = img.filename
         if img_name[-4:] != ".jpg":
-            img_name += user_id + "_.jpg"
+            img_name += "_"+user_id + ".jpg"
         else:
-            img_name = img_name[:-4] + user_id + "_.jpg"
+            img_name = img_name[:-4] + "_"+user_id + ".jpg"
         save_path = os.path.join(DOWNLOAD_AVATAR_PATH, img_name)
         contents = await img.read()
         with open(save_path, "wb") as f:
@@ -77,12 +80,10 @@ async def add_user_avatar(user_id:str, img: UploadFile,response: Response):
         res["status"] = "failed"
     else:
         # save user and avatar into mysql
-        db_res = insert_person_avatar({"id":user_id},save_path)
+        db_res = insert_person_avatar({"user_id":user_id},save_path)
         res["status"] = db_res["status"]
         if res["status"] == "success":
             res["img_url"] = "/avatars/"+img_name
-    return res
-
     return res
 
 
@@ -106,7 +107,7 @@ async def register_face(user_id: str, img: UploadFile, response: Response):
         res["status"] = "failed"
     else:
         # deal with face features into the 
-        db_res = register_person_face({"id":user_id},cache_path,FACE_DET_THRESHOLD)
+        db_res = register_person_face({"user_id":user_id},cache_path,FACE_DET_THRESHOLD)
         res["status"] = db_res["status"]
     finally:
         if os.path.isfile(cache_path):
@@ -120,9 +121,9 @@ async def register_avatar(user_id: str, img: UploadFile, response: Response):
     try:
         img_name = img.filename
         if img_name[-4:] != ".jpg":
-            img_name += user_id + "_.jpg"
+            img_name += "_"+user_id + ".jpg"
         else:
-            img_name = img_name[:-4] + user_id + "_.jpg"
+            img_name = img_name[:-4] + "_"+user_id + ".jpg"
         save_path = os.path.join(DOWNLOAD_AVATAR_PATH, img_name)
         contents = await img.read()
         with open(save_path, "wb") as f:
@@ -134,7 +135,8 @@ async def register_avatar(user_id: str, img: UploadFile, response: Response):
         res["status"] = "failed"
     else:
         # save user and avatar into mysql
-        db_res = register_person_avatar({"id":user_id},save_path)
+        db_res = register_person_avatar({"user_id":user_id},save_path)
+        logger.info(f"get db_res {db_res}")
         res["status"] = db_res["status"]
         if res["status"] == "success":
             res["img_url"] = "/avatars/"+img_name

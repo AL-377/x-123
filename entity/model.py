@@ -10,7 +10,7 @@ class RegFacResult(BaseModel):
     The response for register the person face
     """
     status: str
-    user_id: int
+    user_id: str
  
 
 class RegAvaResult(BaseModel):
@@ -19,7 +19,7 @@ class RegAvaResult(BaseModel):
     img_url: str the url of the avatar img
     """
     status: str
-    user_id: int
+    user_id: str
     img_url: str = ""
 
 
@@ -38,7 +38,7 @@ class RecResult(BaseModel):
     img_url: str the url of the covered img
     """
     status: str
-    user_id: int
+    user_id: str
     avatar_pairs: list[AvatarPair]
 
 
