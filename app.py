@@ -20,6 +20,7 @@ from service import (register_person_avatar,
                     recognize_person,
                     unregister_person,
                     get_person_avatars)
+from server.utils.image import remove_bg,remove_padding
 import os
 import logging
 
@@ -74,6 +75,12 @@ async def add_user_avatar(user_id:str, img: UploadFile,response: Response):
         with open(save_path, "wb") as f:
             f.write(contents)
         logger.info(f"save avatar -> {save_path}")
+        # remove the bg and pad
+        mid_path = save_path[:-4] + "_mid.jpg"
+        dealed_path = save_path[:-4] + "_final.png"
+        remove_bg(save_path,mid_path)
+        remove_padding(mid_path,dealed_path)
+        logger.info(f"save dealed avatar -> {dealed_path}")
     except Exception as e:
         logger.error(f"error add avatar: {e}")
         response.status_code = 404
@@ -129,6 +136,12 @@ async def register_avatar(user_id: str, img: UploadFile, response: Response):
         with open(save_path, "wb") as f:
             f.write(contents)
         logger.info(f"save avatar -> {save_path}")
+        # remove the bg and pad
+        mid_path = save_path[:-4] + "_mid.jpg"
+        dealed_path = save_path[:-4] + "_final.png"
+        remove_bg(save_path,mid_path)
+        remove_padding(mid_path,dealed_path)
+        logger.info(f"save dealed avatar -> {dealed_path}")
     except Exception as e:
         logger.error(f"error register avatar: {e}")
         response.status_code = 404
@@ -182,7 +195,7 @@ async def recognize_faces(user_id: str, img: UploadFile, response: Response):
         if "avatars_pair" in rec_res.keys():
             for ap in rec_res["avatars_pair"]:
                 filename = ap["avatar"].split("/")[-1]
-                a_p = {"avatar_url":"/avatars/"+filename,"pos":[]}
+                a_p = {"avatar_url":"/avatars/"+filename[:-4]+"_final.png","pos":[]}
                 x,y,w,h = ap["face_pos"]['x'],ap["face_pos"]['y'],ap["face_pos"]['w'],ap["face_pos"]['h']
                 # x1, y1 = x, y
                 # x2, y2 = x + w, y

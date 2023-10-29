@@ -6,7 +6,27 @@ from typing import Tuple, Union, List
 
 import cv2
 import numpy as np
+import rembg
 
+def remove_padding(input_path,output_path):
+    """删除图片边缘内容"""
+    image = cv2.imread(input_path,cv2.IMREAD_UNCHANGED)
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    _, thresh = cv2.threshold(gray, 1, 255, cv2.THRESH_BINARY)
+    contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    # 找到包含所有轮廓的最小矩形
+    x, y, w, h = cv2.boundingRect(np.concatenate(contours))
+
+    crop_img = image[y:y+h, x:x+w]
+    cv2.imwrite(output_path,crop_img,[cv2.IMWRITE_PNG_COMPRESSION, 9])
+    
+def remove_bg(input_path,output_path):
+    """去除背景图保证大小不变"""
+    with open(input_path, 'rb') as i:
+        with open(output_path, 'wb') as o:
+            input = i.read()
+            output = rembg.remove(input)
+            o.write(output)
 
 def pad_resize_image(
         cv2_img: np.ndarray,
