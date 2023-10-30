@@ -1,0 +1,1 @@
+import{u as l,a as n,j as e,r as o}from"./index-687e7172.js";function r(){const t=l(),a=n();return e("div",{className:"relative h-full w-full",children:e(o.Suspense,{fallback:e("div",{children:"loading..."}),children:t},a.pathname)})}export{r as Component};

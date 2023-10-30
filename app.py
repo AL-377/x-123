@@ -10,6 +10,7 @@
 from fastapi import FastAPI, Response, status, File, UploadFile
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from entity.model import RegFacResult, RegAvaResult,RecResult
 from config import (DOWNLOAD_AVATAR_PATH,DOWNLOAD_CACHE_PATH,
                     SERVER_IP,SERVER_PORT,FACE_DET_THRESHOLD,
@@ -26,6 +27,7 @@ import logging
 
 app = FastAPI()
 
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -36,10 +38,11 @@ app.add_middleware(
 
 logger = logging.getLogger('app')
 
-
 @app.get("/")
-def read_root():
-    return {"Hello": "World"}
+async def root():
+    logger.info("return index")
+    return FileResponse("dist/index.html")
+
 
 @app.get("/avatars/{filename}")
 async def get_avatar(filename: str):
@@ -209,3 +212,6 @@ async def recognize_faces(user_id: str, img: UploadFile, response: Response):
             # delete the cache file
             os.remove(cache_path)
     return res
+
+
+app.mount("/", StaticFiles(directory="dist"), name="static")
