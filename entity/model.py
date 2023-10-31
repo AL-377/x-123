@@ -29,7 +29,7 @@ class AvatarPair(BaseModel):
     pos: the position at lt_x,lt_y,ld_x,ld_y,rt_x,rt_y,rd_x,rd_y
     """
     avatar_url:str
-    pos:list[int]
+    pos:list[float]
 
 
 class RecResult(BaseModel):

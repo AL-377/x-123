@@ -1100,3 +1100,774 @@ INFO:     | 2023-10-30 09:39:21 | app | return index
 INFO:     | 2023-10-30 09:40:33 | app | return index
 INFO:     | 2023-10-30 09:42:07 | milvus_api | Collection faces_v2 present already.
 INFO:     | 2023-10-30 09:45:52 | app | return index
+INFO:     | 2023-10-30 09:47:27 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-30 09:48:15 | app | return index
+INFO:     | 2023-10-30 09:53:28 | app | return index
+INFO:     | 2023-10-30 09:53:33 | app | return index
+INFO:     | 2023-10-30 09:53:38 | app | return index
+INFO:     | 2023-10-30 09:53:51 | app | return index
+INFO:     | 2023-10-30 10:54:09 | app | return index
+INFO:     | 2023-10-30 10:54:46 | app | return index
+INFO:     | 2023-10-30 11:10:28 | app | return index
+INFO:     | 2023-10-30 12:29:18 | app | return index
+INFO:     | 2023-10-30 12:37:26 | app | return index
+INFO:     | 2023-10-30 12:38:26 | app | return index
+INFO:     | 2023-10-30 12:38:26 | app | return index
+INFO:     | 2023-10-30 13:08:54 | app | return index
+INFO:     | 2023-10-30 13:25:08 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-30 13:25:08 | mysql_api | Person avatar with person_id: 84b8d174-d7c2-4f29-8760-8b663df8a66c retrieved from mysql db.
+INFO:     | 2023-10-30 13:25:08 | app | get avatars of user84b8d174-d7c2-4f29-8760-8b663df8a66c res:{'status': 'success', 'message': 'record matching person_id: 84b8d174-d7c2-4f29-8760-8b663df8a66c retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-30 13:29:23 | app | return index
+INFO:     | 2023-10-30 13:43:52 | app | return index
+INFO:     | 2023-10-30 14:16:30 | app | return index
+INFO:     | 2023-10-30 14:16:30 | app | return index
+INFO:     | 2023-10-30 17:02:22 | app | return index
+INFO:     | 2023-10-30 17:52:53 | app | return index
+INFO:     | 2023-10-30 18:20:34 | app | return index
+INFO:     | 2023-10-30 18:22:19 | app | return index
+INFO:     | 2023-10-30 18:29:37 | app | return index
+INFO:     | 2023-10-30 18:33:08 | app | return index
+INFO:     | 2023-10-30 18:33:21 | app | return index
+INFO:     | 2023-10-30 18:36:59 | app | return index
+INFO:     | 2023-10-30 18:37:04 | app | return index
+INFO:     | 2023-10-30 19:34:27 | app | return index
+INFO:     | 2023-10-30 19:52:20 | app | return index
+INFO:     | 2023-10-30 19:55:55 | app | return index
+INFO:     | 2023-10-30 20:12:11 | app | return index
+INFO:     | 2023-10-30 20:16:13 | app | return index
+INFO:     | 2023-10-30 20:37:51 | app | return index
+INFO:     | 2023-10-30 21:04:28 | app | return index
+INFO:     | 2023-10-30 21:07:07 | app | return index
+INFO:     | 2023-10-30 21:19:58 | app | return index
+INFO:     | 2023-10-30 21:34:09 | app | return index
+INFO:     | 2023-10-30 21:47:56 | app | return index
+INFO:     | 2023-10-30 21:53:51 | app | return index
+INFO:     | 2023-10-30 21:58:02 | app | return index
+INFO:     | 2023-10-30 22:11:28 | app | return index
+INFO:     | 2023-10-30 22:26:39 | app | return index
+INFO:     | 2023-10-30 22:30:25 | app | return index
+INFO:     | 2023-10-30 22:34:49 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-30 22:34:49 | mysql_api | Person avatar with person_id: 7acb51a1-01a0-4541-94a6-19e67ddbcd30 retrieved from mysql db.
+INFO:     | 2023-10-30 22:34:49 | app | get avatars of user7acb51a1-01a0-4541-94a6-19e67ddbcd30 res:{'status': 'success', 'message': 'record matching person_id: 7acb51a1-01a0-4541-94a6-19e67ddbcd30 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-30 22:34:58 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-30 22:34:58 | mysql_api | Person avatar with person_id: 61507cfe-235b-4985-b38e-d2d2b57278ac retrieved from mysql db.
+INFO:     | 2023-10-30 22:34:58 | app | get avatars of user61507cfe-235b-4985-b38e-d2d2b57278ac res:{'status': 'success', 'message': 'record matching person_id: 61507cfe-235b-4985-b38e-d2d2b57278ac retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-30 22:50:11 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-30 22:50:11 | mysql_api | Person avatar with person_id: bb06f22c-0be8-4c7e-b24a-ad3bd194f861 retrieved from mysql db.
+INFO:     | 2023-10-30 22:50:11 | app | get avatars of userbb06f22c-0be8-4c7e-b24a-ad3bd194f861 res:{'status': 'success', 'message': 'record matching person_id: bb06f22c-0be8-4c7e-b24a-ad3bd194f861 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-30 23:39:03 | app | return index
+INFO:     | 2023-10-30 23:49:56 | app | return index
+INFO:     | 2023-10-31 00:15:55 | app | return index
+INFO:     | 2023-10-31 00:25:47 | app | return index
+INFO:     | 2023-10-31 00:51:16 | app | return index
+INFO:     | 2023-10-31 00:51:16 | app | return index
+INFO:     | 2023-10-31 00:54:14 | app | return index
+INFO:     | 2023-10-31 01:08:17 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:08:17 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:08:17 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:08:20 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:08:20 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:08:20 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:08:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:08:22 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:08:22 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:12:05 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:12:05 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:12:05 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:12:07 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:12:07 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:12:07 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:12:10 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:12:10 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:12:10 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:12:12 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:12:12 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:12:12 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:12:20 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:12:20 | mysql_api | Person avatar with person_id: 19e6af99-842b-43fa-a7ef-d2eedc212f9f retrieved from mysql db.
+INFO:     | 2023-10-31 01:12:20 | app | get avatars of user19e6af99-842b-43fa-a7ef-d2eedc212f9f res:{'status': 'success', 'message': 'record matching person_id: 19e6af99-842b-43fa-a7ef-d2eedc212f9f retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:13:20 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:13:20 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:13:20 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:13:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:13:22 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:13:22 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:13:32 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:13:32 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:13:32 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:13:36 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:13:36 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:13:36 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:14:13 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:14:13 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:14:13 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:14:13 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:14:13 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:14:13 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:14:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:14:18 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:14:18 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:15:44 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:15:44 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:15:44 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:15:45 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:15:45 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:15:45 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:16:20 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:16:20 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:16:20 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:16:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:16:22 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:16:22 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:19:27 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:19:27 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:19:27 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:20:00 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:20:00 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:20:00 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:20:01 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:20:01 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:20:01 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:20:35 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:20:35 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:20:35 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:20:39 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:20:39 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:20:39 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:21:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:21:18 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:21:18 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:21:42 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:21:42 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:21:42 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:21:44 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:21:44 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:21:44 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:21:46 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:21:46 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:21:46 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:22:04 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:22:04 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:22:04 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:22:09 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:22:09 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:22:09 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:22:10 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:22:10 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:22:10 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:22:15 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:22:15 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:22:15 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:22:29 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:22:29 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:22:29 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:28:53 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:28:53 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:29:06 | service | img distance with person: fed14b78-be67-472e-8903-11e4f72eb5ae is 0.12537479400634766
+INFO:     | 2023-10-31 01:29:06 | service | detected face matches id: fed14b78-be67-472e-8903-11e4f72eb5ae
+INFO:     | 2023-10-31 01:29:06 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 01:29:06 | mysql_api | Person avatar with person_id: fed14b78-be67-472e-8903-11e4f72eb5ae retrieved from mysql db.
+INFO:     | 2023-10-31 01:29:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:31:09 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:09 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:09 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:31:12 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:12 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:12 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:31:15 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:15 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:15 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:31:24 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:24 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:24 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:31:27 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:27 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:27 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:31:30 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:30 | mysql_api | Person avatar with person_id: 19e6af99-842b-43fa-a7ef-d2eedc212f9f retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:30 | app | get avatars of user19e6af99-842b-43fa-a7ef-d2eedc212f9f res:{'status': 'success', 'message': 'record matching person_id: 19e6af99-842b-43fa-a7ef-d2eedc212f9f retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:31:37 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:31:37 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:31:40 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:31:40 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:31:50 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:50 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:50 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:31:57 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:31:57 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:31:57 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:32:00 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:00 | mysql_api | Person avatar with person_id: 19e6af99-842b-43fa-a7ef-d2eedc212f9f retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:00 | app | get avatars of user19e6af99-842b-43fa-a7ef-d2eedc212f9f res:{'status': 'success', 'message': 'record matching person_id: 19e6af99-842b-43fa-a7ef-d2eedc212f9f retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:32:05 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:05 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:05 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:05 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:05 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:05 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:07 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:07 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:07 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:09 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:09 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:09 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:16 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:16 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:16 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:32:16 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:16 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:16 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:18 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:18 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:18 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:18 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:32:21 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:32:21 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:32:22 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:32:22 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:32:26 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:26 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:26 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:27 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:27 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:27 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:32:27 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:32:27 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:32:27 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:32:30 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:32:30 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:32:30 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:32:30 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:33:06 | app | return index
+INFO:     | 2023-10-31 01:33:25 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:33:25 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:33:25 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:37:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:37:18 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:37:18 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:37:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:37:18 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:37:18 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:37:19 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:37:19 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:37:19 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:37:19 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:37:19 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:37:19 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:37:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:37:22 | mysql_api | Person avatar with person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db.
+INFO:     | 2023-10-31 01:37:22 | app | get avatars of user7c7fb2ae-710a-431f-a67a-0ff83c1583e1 res:{'status': 'success', 'message': 'record matching person_id: 7c7fb2ae-710a-431f-a67a-0ff83c1583e1 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:37:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:37:22 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:37:22 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:37:29 | app | return index
+INFO:     | 2023-10-31 01:38:00 | app | return index
+INFO:     | 2023-10-31 01:38:17 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:38:17 | mysql_api | Person avatar with person_id: 4af2a7b4-8e4c-4fda-9a82-e0157da4b778 retrieved from mysql db.
+INFO:     | 2023-10-31 01:38:17 | app | get avatars of user4af2a7b4-8e4c-4fda-9a82-e0157da4b778 res:{'status': 'success', 'message': 'record matching person_id: 4af2a7b4-8e4c-4fda-9a82-e0157da4b778 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:38:51 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:38:51 | mysql_api | Person avatar with person_id: 4af2a7b4-8e4c-4fda-9a82-e0157da4b778 retrieved from mysql db.
+INFO:     | 2023-10-31 01:38:51 | app | get avatars of user4af2a7b4-8e4c-4fda-9a82-e0157da4b778 res:{'status': 'success', 'message': 'record matching person_id: 4af2a7b4-8e4c-4fda-9a82-e0157da4b778 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:41:16 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:41:16 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:41:16 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:41:20 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:41:20 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:41:20 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:41:20 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:41:41 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:41:41 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:41:41 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:41:45 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:41:45 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:41:45 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:41:51 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:41:51 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:41:51 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:41:56 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:41:56 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:41:56 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:41:59 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:41:59 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:41:59 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:42:02 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:42:02 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:42:02 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:42:02 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:42:20 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:42:20 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:42:20 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:42:21 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:42:21 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:42:21 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:42:25 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:42:25 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:42:25 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:42:37 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:42:37 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:42:37 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:42:39 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:42:39 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:42:39 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:42:44 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:42:44 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:42:45 | service | img distance with person: 0 is 0.06444735825061798
+INFO:     | 2023-10-31 01:42:45 | service | detected face matches id: 0
+INFO:     | 2023-10-31 01:42:45 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 01:42:45 | mysql_api | Person avatar with person_id: 0 retrieved from mysql db.
+INFO:     | 2023-10-31 01:42:45 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:43:14 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:43:14 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:43:14 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:43:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:43:18 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:43:18 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:43:21 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:43:21 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:43:21 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:43:21 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:43:34 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:43:34 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:43:34 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:43:36 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:43:36 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:43:36 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:43:39 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:43:39 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:43:40 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:43:40 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:44:24 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:44:24 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:44:24 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:44:32 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:44:32 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:44:32 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:44:40 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:44:40 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:44:40 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:44:48 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:44:48 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:44:48 | service | No faces were detected in the image app/.data/blob.jpg
+INFO:     | 2023-10-31 01:44:48 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:45:36 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:45:36 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:45:36 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:45:40 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:45:40 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:45:40 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:45:47 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:45:47 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:45:48 | service | img distance with person: fed14b78-be67-472e-8903-11e4f72eb5ae is 0.13944163918495178
+INFO:     | 2023-10-31 01:45:48 | service | detected face matches id: fed14b78-be67-472e-8903-11e4f72eb5ae
+INFO:     | 2023-10-31 01:45:48 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 01:45:48 | mysql_api | Person avatar with person_id: fed14b78-be67-472e-8903-11e4f72eb5ae retrieved from mysql db.
+INFO:     | 2023-10-31 01:45:48 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:45:59 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:45:59 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:45:59 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:48:52 | app | return index
+INFO:     | 2023-10-31 01:49:02 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:02 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:02 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:49:02 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:02 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:02 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:49:14 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:14 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:14 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:49:15 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:15 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:15 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:49:19 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:19 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:19 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:49:19 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:19 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:19 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:49:25 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:25 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:25 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:49:32 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:32 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:32 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:49:45 | app | return index
+INFO:     | 2023-10-31 01:49:45 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:45 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:45 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:49:52 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:49:52 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:49:52 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:50:04 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:50:04 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:50:04 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:51:06 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:51:06 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:51:06 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:52:28 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:52:28 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:52:28 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:52:54 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:52:54 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:52:54 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:06 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:06 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:06 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:06 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:06 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:06 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:53:15 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:15 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:15 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:15 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:15 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:15 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:53:16 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:16 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:16 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:16 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:16 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:16 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:53:21 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:21 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:21 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:21 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:21 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:21 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:53:23 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:23 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:23 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:23 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:23 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:23 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:53:27 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:27 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:27 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:32 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:53:32 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:53:33 | service | img distance with person: 0 is 0.1716558039188385
+INFO:     | 2023-10-31 01:53:33 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 01:53:33 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:53:36 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:53:36 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:53:37 | service | img distance with person: 0 is 0.16956984996795654
+INFO:     | 2023-10-31 01:53:37 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 01:53:37 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:53:45 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:45 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:45 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:45 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:45 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:45 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:53:47 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:47 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:47 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:53:48 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:48 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:48 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:53:50 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:53:50 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:53:51 | service | img distance with person: 0 is 0.09697286784648895
+INFO:     | 2023-10-31 01:53:51 | service | detected face matches id: 0
+INFO:     | 2023-10-31 01:53:51 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 01:53:51 | mysql_api | Person avatar with person_id: 0 retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:51 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:53:53 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:53:53 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:53:53 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:54:05 | app | cache face to recognize-> app/.data/blob.jpg
+INFO:     | 2023-10-31 01:54:05 | app | recognizing img app/.data/blob.jpg
+INFO:     | 2023-10-31 01:54:06 | service | img distance with person: fed14b78-be67-472e-8903-11e4f72eb5ae is 0.10911379754543304
+INFO:     | 2023-10-31 01:54:06 | service | detected face matches id: fed14b78-be67-472e-8903-11e4f72eb5ae
+INFO:     | 2023-10-31 01:54:06 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 01:54:06 | mysql_api | Person avatar with person_id: fed14b78-be67-472e-8903-11e4f72eb5ae retrieved from mysql db.
+INFO:     | 2023-10-31 01:54:06 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 01:57:24 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:24 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:24 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:57:27 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:27 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:27 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:57:30 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:30 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:30 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:57:32 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:32 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:32 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:57:35 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:35 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:35 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:57:46 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:46 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:46 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:57:49 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:49 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:49 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:57:57 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:57:57 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:57:57 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:58:04 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:04 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:04 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:58:04 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:04 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:04 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:58:06 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:06 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:06 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:58:06 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:06 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:06 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:58:09 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:09 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:09 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:58:09 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:09 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:09 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:58:11 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:11 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:11 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:58:11 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:11 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:11 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:58:21 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:21 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:21 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:58:21 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:21 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:21 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 01:58:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:22 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:22 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 01:58:31 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 01:58:31 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 01:58:31 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 02:37:11 | app | return index
+INFO:     | 2023-10-31 02:38:51 | app | return index
+INFO:     | 2023-10-31 02:40:06 | app | return index
+INFO:     | 2023-10-31 02:46:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 02:46:22 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 02:46:22 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 02:46:22 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 02:46:22 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 02:46:22 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 02:46:23 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 02:46:23 | mysql_api | Person avatar with person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db.
+INFO:     | 2023-10-31 02:46:23 | app | get avatars of user96b18b04-8b82-4ff9-8482-c50b32da788b res:{'status': 'success', 'message': 'record matching person_id: 96b18b04-8b82-4ff9-8482-c50b32da788b retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 02:46:23 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 02:46:23 | mysql_api | Person avatar with person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db.
+INFO:     | 2023-10-31 02:46:23 | app | get avatars of userfaa543b8-4ce1-4f66-b192-da14659daf25 res:{'status': 'success', 'message': 'record matching person_id: faa543b8-4ce1-4f66-b192-da14659daf25 retrieved from mysql db', 'avatar': [{'avatar_url': 'volumes/avatars/Bitmap.png_faa543b8-4ce1-4f66-b192-da14659daf25.jpg'}]}
+INFO:     | 2023-10-31 02:56:37 | app | return index
+INFO:     | 2023-10-31 03:01:50 | app | return index
+INFO:     | 2023-10-31 03:05:59 | app | return index
+INFO:     | 2023-10-31 03:07:54 | app | return index
+INFO:     | 2023-10-31 03:37:30 | app | return index
+INFO:     | 2023-10-31 03:42:18 | app | return index
+INFO:     | 2023-10-31 03:51:52 | app | return index
+INFO:     | 2023-10-31 04:05:33 | app | return index
+INFO:     | 2023-10-31 04:12:46 | app | return index
+INFO:     | 2023-10-31 04:22:09 | app | return index
+INFO:     | 2023-10-31 04:22:09 | app | return index
+INFO:     | 2023-10-31 05:15:24 | app | return index
+INFO:     | 2023-10-31 06:02:22 | app | return index
+INFO:     | 2023-10-31 06:13:07 | app | return index
+INFO:     | 2023-10-31 06:23:05 | app | return index
+INFO:     | 2023-10-31 06:54:43 | app | return index
+INFO:     | 2023-10-31 08:27:18 | app | return index
+INFO:     | 2023-10-31 08:38:45 | app | return index
+INFO:     | 2023-10-31 09:06:15 | app | return index
+INFO:     | 2023-10-31 09:14:29 | app | return index
+INFO:     | 2023-10-31 09:56:24 | app | return index
+INFO:     | 2023-10-31 10:14:39 | app | return index
+INFO:     | 2023-10-31 10:30:03 | app | return index
+INFO:     | 2023-10-31 10:40:35 | app | return index
+INFO:     | 2023-10-31 10:44:32 | app | return index
+INFO:     | 2023-10-31 10:56:04 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s
+INFO:     | 2023-10-31 10:56:04 | mysql_api | Person avatar with person_id: bfff44fe-4d8d-455a-a51e-988c8b8fcdd6 retrieved from mysql db.
+INFO:     | 2023-10-31 10:56:04 | app | get avatars of userbfff44fe-4d8d-455a-a51e-988c8b8fcdd6 res:{'status': 'success', 'message': 'record matching person_id: bfff44fe-4d8d-455a-a51e-988c8b8fcdd6 retrieved from mysql db', 'avatar': ()}
+INFO:     | 2023-10-31 10:56:07 | app | return index
+INFO:     | 2023-10-31 11:31:43 | app | return index
+INFO:     | 2023-10-31 11:43:03 | app | return index
+INFO:     | 2023-10-31 11:52:36 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 11:55:48 | app | cache face to recognize-> app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-31 11:55:48 | app | recognizing img app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-31 11:55:58 | service | No faces were detected in the image app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-31 11:55:58 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 11:58:17 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 11:58:48 | app | cache face to recognize-> app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-31 11:58:48 | app | recognizing img app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-31 11:58:59 | app | independent Retina obj:{'face_1': {'score': 0.999562680721283, 'facial_area': [343, 751, 939, 1542], 'landmarks': {'right_eye': [506.22366, 1026.65], 'left_eye': [785.31384, 1034.0125], 'nose': [644.7855, 1183.6729], 'mouth_right': [533.12604, 1340.1772], 'mouth_left': [752.6733, 1345.3418]}}}
+INFO:     | 2023-10-31 11:59:01 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.08076563477516174
+INFO:     | 2023-10-31 11:59:01 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 11:59:01 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+WARNING:  | 2023-10-31 11:59:01 | mysql_api | mysql record with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 does not exist.
+INFO:     | 2023-10-31 11:59:01 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 12:01:17 | app | cache face to recognize-> app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-31 12:01:17 | app | recognizing img app/.data/p1.jpeg.jpg
+INFO:     | 2023-10-31 12:01:18 | app | independent Retina obj:{'face_1': {'score': 0.999562680721283, 'facial_area': [343, 751, 939, 1542], 'landmarks': {'right_eye': [506.22366, 1026.65], 'left_eye': [785.31384, 1034.0125], 'nose': [644.7855, 1183.6729], 'mouth_right': [533.12604, 1340.1772], 'mouth_left': [752.6733, 1345.3418]}}}
+INFO:     | 2023-10-31 12:01:18 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.08076563477516174
+INFO:     | 2023-10-31 12:01:18 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 12:01:18 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 12:01:18 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 12:01:18 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 12:07:06 | app | return index
+INFO:     | 2023-10-31 12:14:57 | app | return index
+INFO:     | 2023-10-31 12:16:44 | app | return index
+INFO:     | 2023-10-31 12:16:45 | app | return index
+INFO:     | 2023-10-31 12:17:11 | app | return index
+INFO:     | 2023-10-31 12:23:23 | app | return index
+INFO:     | 2023-10-31 12:23:41 | app | return index
+INFO:     | 2023-10-31 12:33:53 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 12:33:53 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 12:33:56 | app | independent Retina obj:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 12:33:56 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 12:33:56 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 12:33:57 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 12:33:57 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 12:33:57 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 12:33:57 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 12:33:57 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 12:33:57 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 12:33:57 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 12:33:57 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 12:33:57 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 12:39:36 | app | return index
+INFO:     | 2023-10-31 13:00:16 | app | return index
+INFO:     | 2023-10-31 13:00:17 | app | return index
+INFO:     | 2023-10-31 13:11:23 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:12:12 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:12:12 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:12:25 | app | retina_res:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 13:12:25 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 13:12:25 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:12:25 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 13:12:25 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 13:12:25 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 13:12:25 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 13:12:26 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 13:12:26 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:12:26 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 13:12:26 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:12:26 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 13:16:37 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:16:50 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:16:50 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:17:03 | app | retina_res:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 13:17:03 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 13:17:03 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:17:04 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 13:17:04 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 13:17:04 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 13:17:04 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 13:17:04 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 13:17:04 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:17:05 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 13:17:05 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:17:05 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 13:24:00 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:24:11 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:24:11 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:24:24 | server | retina_res:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.58426], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 13:24:24 | server | filtered retina face:[{'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.58426], 'mouth_left': [1231.278, 501.89468]}}]
+INFO:     | 2023-10-31 13:24:24 | server | face boxes:[{'x': 1022, 'y': 247, 'w': 256, 'h': 335}, {'x': 718, 'y': 360, 'w': 219, 'h': 256}, {'x': 440, 'y': 413, 'w': 194, 'h': 181}, {'x': 230, 'y': 394, 'w': 155, 'h': 171}]
+INFO:     | 2023-10-31 13:24:25 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 13:24:25 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:24:25 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 13:24:25 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 13:24:25 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 13:24:25 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 13:24:25 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 13:24:25 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:24:26 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 13:24:26 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:24:26 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 13:27:03 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:30:28 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:30:38 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:30:38 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:30:51 | server | retina_res:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 13:30:51 | server | filtered retina face:[{'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}]
+INFO:     | 2023-10-31 13:30:51 | server | face boxes:[{'x': 1022, 'y': 247, 'w': 256, 'h': 335}, {'x': 718, 'y': 360, 'w': 219, 'h': 256}, {'x': 440, 'y': 413, 'w': 194, 'h': 181}, {'x': 230, 'y': 394, 'w': 155, 'h': 171}]
+INFO:     | 2023-10-31 13:30:51 | server | cal face angle: 0.6423980487697054
+INFO:     | 2023-10-31 13:30:51 | server | cal face angle: 19.38330461966004
+INFO:     | 2023-10-31 13:30:51 | server | cal face angle: 43.42471532206622
+INFO:     | 2023-10-31 13:30:51 | server | cal face angle: 22.247958635245393
+INFO:     | 2023-10-31 13:30:51 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 13:30:51 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:30:52 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 13:30:52 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 13:30:52 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 13:30:52 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 13:30:52 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 13:30:52 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:30:52 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 13:30:52 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:30:52 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 13:35:23 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:35:43 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:35:56 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:35:56 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:36:09 | server | retina_res:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 13:36:09 | server | filtered retina face:[{'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}]
+INFO:     | 2023-10-31 13:36:09 | server | face boxes:[{'x': 1022, 'y': 247, 'w': 256, 'h': 335}, {'x': 718, 'y': 360, 'w': 219, 'h': 256}, {'x': 440, 'y': 413, 'w': 194, 'h': 181}, {'x': 230, 'y': 394, 'w': 155, 'h': 171}]
+INFO:     | 2023-10-31 13:36:09 | server | cal face angle: 0.6423980487697054
+INFO:     | 2023-10-31 13:36:09 | server | cal face angle: 19.38330461966004
+INFO:     | 2023-10-31 13:36:09 | server | cal face angle: 43.42471532206622
+INFO:     | 2023-10-31 13:36:09 | server | cal face angle: 22.247958635245393
+INFO:     | 2023-10-31 13:36:09 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 13:36:09 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:36:09 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 13:36:09 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 13:36:09 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 13:36:09 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 13:36:10 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 13:36:10 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:36:10 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 13:36:10 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:36:10 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 13:37:21 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:37:30 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:37:30 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:37:44 | server | retina_res:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 13:37:44 | server | filtered retina face:[{'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}]
+INFO:     | 2023-10-31 13:37:44 | server | face boxes:[{'x': 1022, 'y': 247, 'w': 256, 'h': 335}, {'x': 718, 'y': 360, 'w': 219, 'h': 256}, {'x': 440, 'y': 413, 'w': 194, 'h': 181}, {'x': 230, 'y': 394, 'w': 155, 'h': 171}]
+INFO:     | 2023-10-31 13:37:44 | server | cal face angle: 0.6423980487697054
+INFO:     | 2023-10-31 13:37:44 | server | cal face angle: 19.38330461966004
+INFO:     | 2023-10-31 13:37:44 | server | cal face angle: 43.42471532206622
+INFO:     | 2023-10-31 13:37:44 | server | cal face angle: 22.247958635245393
+INFO:     | 2023-10-31 13:37:44 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 13:37:44 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:37:44 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 13:37:44 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 13:37:44 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 13:37:44 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 13:37:45 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 13:37:45 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:37:45 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 13:37:45 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:37:45 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 13:37:45 | app | recognize return:{'status': 'success', 'user_id': '1', 'avatar_pairs': [{'avatar_url': '/avatars/avatar.png_0_final.png', 'pos': [718, 360, 219, 256, 19.38330461966004]}]}
+INFO:     | 2023-10-31 13:39:05 | milvus_api | Collection faces_v2 present already.
+INFO:     | 2023-10-31 13:39:15 | app | cache face to recognize-> app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:39:15 | app | recognizing img app/.data/ps1.jpeg.jpg
+INFO:     | 2023-10-31 13:39:28 | server | retina_res:{'face_1': {'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, 'face_2': {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, 'face_3': {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, 'face_4': {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}}
+INFO:     | 2023-10-31 13:39:28 | server | filtered retina face:[{'score': 0.9995232820510864, 'facial_area': [230, 394, 385, 565], 'landmarks': {'right_eye': [270.14917, 445.94476], 'left_eye': [339.92517, 474.48798], 'nose': [286.45084, 505.1889], 'mouth_right': [254.90025, 510.4035], 'mouth_left': [311.7688, 532.9266]}}, {'score': 0.9994284510612488, 'facial_area': [440, 413, 634, 594], 'landmarks': {'right_eye': [518.97107, 462.62665], 'left_eye': [576.3318, 516.9169], 'nose': [515.3398, 521.6613], 'mouth_right': [467.05988, 526.6091], 'mouth_left': [507.9332, 570.9275]}}, {'score': 0.9993916749954224, 'facial_area': [718, 360, 937, 616], 'landmarks': {'right_eye': [799.05023, 440.3792], 'left_eye': [893.42737, 473.58374], 'nose': [838.30273, 493.8084], 'mouth_right': [777.44934, 535.3888], 'mouth_left': [852.4406, 562.7965]}}, {'score': 0.9990382194519043, 'facial_area': [1022, 247, 1278, 582], 'landmarks': {'right_eye': [1103.6362, 363.78784], 'left_eye': [1250.7965, 365.43787], 'nose': [1177.2928, 452.41464], 'mouth_right': [1114.086, 500.5842], 'mouth_left': [1231.278, 501.89468]}}]
+INFO:     | 2023-10-31 13:39:28 | server | face boxes:[{'x': 1022, 'y': 247, 'w': 256, 'h': 335}, {'x': 718, 'y': 360, 'w': 219, 'h': 256}, {'x': 440, 'y': 413, 'w': 194, 'h': 181}, {'x': 230, 'y': 394, 'w': 155, 'h': 171}]
+INFO:     | 2023-10-31 13:39:28 | server | cal face angle: 0.6423980487697054
+INFO:     | 2023-10-31 13:39:28 | server | cal face angle: 19.38330461966004
+INFO:     | 2023-10-31 13:39:28 | server | cal face angle: 43.42471532206622
+INFO:     | 2023-10-31 13:39:28 | server | cal face angle: 22.247958635245393
+INFO:     | 2023-10-31 13:39:28 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.19210347533226013
+INFO:     | 2023-10-31 13:39:28 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:39:28 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.06455722451210022
+INFO:     | 2023-10-31 13:39:28 | service | detected face matches id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074
+INFO:     | 2023-10-31 13:39:28 | mysql_api | SELECT avatar_url FROM person WHERE user_id = %s and is_default = 1
+INFO:     | 2023-10-31 13:39:28 | mysql_api | Person avatar with person_id: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 retrieved from mysql db.
+INFO:     | 2023-10-31 13:39:28 | service | img distance with person: c3470128-ba5b-4ee2-b98d-0e7c7cae2074 is 0.23528723418712616
+INFO:     | 2023-10-31 13:39:28 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:39:29 | service | img distance with person: faa543b8-4ce1-4f66-b192-da14659daf25 is 0.15190842747688293
+INFO:     | 2023-10-31 13:39:29 | service | no similar faces were found in the database
+INFO:     | 2023-10-31 13:39:29 | app | recognizing faces fininshed!
+INFO:     | 2023-10-31 13:39:29 | app | recognize return:{'status': 'success', 'user_id': '1', 'avatar_pairs': [{'avatar_url': '/avatars/avatar.png_0_final.png', 'pos': [718, 360, 219, 256, 19.38330461966004]}]}
+INFO:     | 2023-10-31 13:41:28 | milvus_api | Collection faces_v2 present already.

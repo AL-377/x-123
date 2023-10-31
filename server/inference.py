@@ -14,8 +14,12 @@ import os
 
 import numpy as np
 import cv2
-from server.utils.image import pad_resize_image, scale_coords, draw_bbox_on_image
+from server.utils.image import pad_resize_image, scale_coords, draw_bbox_on_image,alignment_procedure
 from deepface import DeepFace
+
+import logging
+
+logger = logging.getLogger('server')
 
 
 backends = [
@@ -138,8 +142,41 @@ def run_inference(face_path, face_feat_model, face_det_thres,
                 embedding = embedding_objs[0]["embedding"]
                 res["face_feats"].append(embedding)
                 res["face_boxes"].append(filtered_faces_info[i]["facial_area"])
+
             res["status"] = 1
             res["face_detections"] = True
+            # cal the angle separately
+            from retinaface import RetinaFace
+            retina_res = RetinaFace.detect_faces(face_path,threshold=0.9)
+            filtered_retina_res = []
+            logger.info(f"retina_res:{retina_res}")
+            for rface in retina_res.keys():
+                try:
+                    left_eye = retina_res[rface]["landmarks"]["left_eye"]
+                    right_eye = retina_res[rface]["landmarks"]["right_eye"]
+                    if retina_res[rface]["score"] >= face_det_thres:
+                        filtered_retina_res.append(retina_res[rface])
+                except Exception:
+                    logger.info("some face don't have eyes?")
+            
+            logger.info(f"filtered retina face:{filtered_retina_res}")
+            logger.info(f"face boxes:{res['face_boxes']}")
 
+            # modify the res["face_boxes"] to add the angle
+            for i in range(len(res["face_boxes"])):
+                b = res["face_boxes"][i]
+                b_x,b_y = b["x"],b["y"]
+                flag = False
+                for r in filtered_retina_res:
+                    x,y = r["facial_area"][0],r["facial_area"][1]
+                    if b_x == x and b_y == y:
+                        angle = alignment_procedure(r["landmarks"]["left_eye"],r["landmarks"]["right_eye"])
+                        res["face_boxes"][i]["angle"] = angle
+                        flag = True
+                        logger.info(f"cal face angle: {angle}")
+                        break
+                if not flag:
+                    res["face_boxes"][i]["angle"] = 0
+ 
     finally:
         return res

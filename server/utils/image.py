@@ -8,6 +8,28 @@ import cv2
 import numpy as np
 import rembg
 
+import math
+
+def alignment_procedure(left_eye, right_eye,):
+    """根据2只眼睛位置来进行计算人脸旋转角度"""
+
+    # 提取左右眼睛中心点坐标
+    left_eye_x, left_eye_y = left_eye[0],left_eye[1]
+    right_eye_x, right_eye_y = right_eye[0],right_eye[1]
+
+    # 计算两眼连线的斜率
+    slope = (right_eye_y - left_eye_y) / (right_eye_x - left_eye_x)
+
+    # 计算旋转角度
+    angle = math.atan2(slope, 1) * 180 / math.pi
+
+    # 计算旋转框的四个角的坐标
+    # angle_rad = math.radians(angle)  # 将角度转换为弧度制
+    
+    return angle
+
+
+
 def remove_padding(input_path,output_path):
     """删除图片边缘内容"""
     image = cv2.imread(input_path,cv2.IMREAD_UNCHANGED)

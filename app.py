@@ -40,7 +40,6 @@ logger = logging.getLogger('app')
 
 @app.get("/")
 async def root():
-    logger.info("return index")
     return FileResponse("dist/index.html")
 
 
@@ -194,19 +193,19 @@ async def recognize_faces(user_id: str, img: UploadFile, response: Response):
         res["status"] = rec_res["status"]
 
         logger.info("recognizing faces fininshed!")
-        # if has avatar
-        if "avatars_pair" in rec_res.keys():
-            for ap in rec_res["avatars_pair"]:
-                filename = ap["avatar"].split("/")[-1]
-                a_p = {"avatar_url":"/avatars/"+filename[:-4]+"_final.png","pos":[]}
-                x,y,w,h = ap["face_pos"]['x'],ap["face_pos"]['y'],ap["face_pos"]['w'],ap["face_pos"]['h']
-                # x1, y1 = x, y
-                # x2, y2 = x + w, y
-                # x3, y3 = x, y + h
-                # x4, y4 = x + w, y + h
-                pos = [x,y,w,h]
-                a_p["pos"] = pos
-                res["avatar_pairs"].append(a_p) 
+        try:
+            # if has avatar
+            if "avatars_pair" in rec_res.keys():
+                for ap in rec_res["avatars_pair"]:
+                    filename = ap["avatar"].split("/")[-1]
+                    a_p = {"avatar_url":"/avatars/"+filename[:-4]+"_final.png","pos":[]}
+                    x,y,w,h,angle = ap["face_pos"]['x'],ap["face_pos"]['y'],ap["face_pos"]['w'],ap["face_pos"]['h'],ap["face_pos"]["angle"]
+                    pos = [x,y,w,h,angle]
+                    a_p["pos"] = pos
+                    res["avatar_pairs"].append(a_p) 
+        except Exception as e:
+            logger.error(e.with_traceback())
+        logger.info(f"recognize return:{res}")
     finally:
         if os.path.isfile(cache_path):
             # delete the cache file
