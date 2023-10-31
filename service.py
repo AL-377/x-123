@@ -14,8 +14,9 @@ from dao.mysql import (insert_person_data_into_sql,
                        select_all_person_data_from_sql,
                        select_person_data_from_sql_with_id,
                        delete_person_data_from_sql_with_id,
-                       update_avatar_url_in_sql,
-                       select_person_avatar_from_sql_with_id)
+                       update_default_avatar_url_in_sql,
+                       select_person_avatar_from_sql_with_id,
+                       select_person_default_avatar_from_sql_with_id)
 from pymysql.cursors import DictCursor
 
 from config import (MYSQL_CUR_TABLE,
@@ -36,15 +37,6 @@ from dao.db import mysql_pool
 # logger
 logger = logging.getLogger('service')
 
-
-# Connect to MySQL
-# mysql_conn = pymysql.connect(
-#     host=MYSQL_HOST,
-#     port=MYSQL_PORT,
-#     user=MYSQL_USER,
-#     password=MYSQL_PASSWORD,
-#     db=MYSQL_DATABASE,
-#     cursorclass=DictCursor)
 
 # connect to milvus connec
 milvus_collec_conn = get_milvus_collec_conn(
@@ -74,13 +66,18 @@ models = [
 
 
 def get_connection():
+    """
+    Get the mysql connection
+    """
     conn = mysql_pool.connection()
     return conn
 
 
 def get_registered_person(
-        person_id: int,
-        table: str = MYSQL_CUR_TABLE) -> dict:
+        person_id: str,
+        table: str = MYSQL_CUR_TABLE,
+        mysql_conn = None 
+        ) -> dict:
     """
     Get registered person by person_id.
     Checks redis cache, otherwise query mysql
@@ -88,13 +85,26 @@ def get_registered_person(
     # try cached redis data
     # TODO
     # if cache is not found, query mysql
-    mysql_conn = get_connection()
+    if mysql_conn is None:
+        mysql_conn = get_connection()
     return select_person_data_from_sql_with_id(
         mysql_conn, table, person_id)
 
 
-def get_person_avatar(
-        person_id: int,
+def get_person_default_avatar(
+        person_id: str,
+        table: str = MYSQL_CUR_TABLE) -> dict:
+    """
+    Get the avatar of person by id
+    """
+    mysql_conn = get_connection()
+    return select_person_default_avatar_from_sql_with_id(
+        mysql_conn, table, person_id
+    )
+
+
+def get_person_avatars(
+        person_id: str,
         table: str = MYSQL_CUR_TABLE) -> dict:
     """
     Get the avatar of person by id
@@ -115,7 +125,7 @@ def get_all_registered_person(
 
 
 def unregister_person(
-        person_id: int,
+        person_id: str,
         table: str = MYSQL_CUR_TABLE) -> dict:
     """
     Deletes a registered person based on the unique person_id.
@@ -132,7 +142,7 @@ def unregister_person(
             raise pymysql.Error
 
         # unregister from milvus
-        expr = f'person_id in [{person_id}]'
+        expr = f'person_id in ["{person_id}"]'
         milvus_collec_conn.delete(expr)
         logger.info("Vector for person with id: %s deleted from milvus db.",
               person_id)
@@ -143,15 +153,14 @@ def unregister_person(
         # commit mysql record delete
         mysql_conn.commit()
     except (pymysql.Error, MilvusException) as excep:
-        msg = f"person with id {person_id} couldn't be unregistered from database"
+        msg = f"person with person_id {person_id} couldn't be unregistered from database"
         return {"status": "failed",
                 "message": msg}
-    print("person record with id %s unregistered from database.", person_id)
+    print("person record with person_id %s unregistered from database.", person_id)
     return {"status": "success",
-            "message": f"person record with id {person_id} unregistered from database"}
+            "message": f"person record with person_id {person_id} unregistered from database"}
 
-
-def register_person_avatar(
+def insert_person_avatar(
         person_data:dict,
         avatar_path:str,
         table: str = MYSQL_CUR_TABLE):
@@ -160,14 +169,11 @@ def register_person_avatar(
     """
     mysql_conn = get_connection()
     # uniq person id from user input
-    person_id = person_data["id"]
-    # check if person already exists in redis/mysql
-    if get_registered_person(person_id, table)["status"] == "success":
-        # if so, update the avatar
-        return update_avatar_url_in_sql(mysql_conn, table, person_id, avatar_path)
+    person_id = person_data["user_id"]
     # first time register must set the avatar
     try:
         person_data["avatar_url"] = avatar_path
+        person_data["is_default"] = 0
         # insert record into mysql
         # commit is set to False so that the op is atomic with milvus & redis
         mysql_insert_resp = insert_person_data_into_sql(
@@ -180,8 +186,46 @@ def register_person_avatar(
         return {"status":"success"}
         
     except (pymysql.Error) as excep:
-        msg = f"person with id {person_id} couldn't be registered into database "
+        msg = f"person with user_id {person_id} couldn't be registered into database "
         print("error: %s: %s", excep, msg)
+        return {"status":"failed"}
+
+
+def register_person_avatar(
+        person_data:dict,
+        avatar_path:str,
+        table: str = MYSQL_CUR_TABLE):
+    """
+    Get the user_info and avatar path,insert it into our db
+    """
+    mysql_conn = get_connection()
+    # uniq person id from user input
+    person_id = person_data["user_id"]
+    # check if person already exists in redis/mysql
+    if "person_data" in get_registered_person(person_id, table, mysql_conn):
+        # if so, update the avatar
+        return update_default_avatar_url_in_sql(mysql_conn, table, person_id, avatar_path)
+    # first time register must set the avatar
+    try:
+        person_data["avatar_url"] = avatar_path
+        # first time register set the avtar to default
+        person_data["is_default"] = 1
+        # insert record into mysql
+        # commit is set to False so that the op is atomic with milvus & redis
+        mysql_insert_resp = insert_person_data_into_sql(
+            mysql_conn, table, person_data, commit=False)
+        logger.info(f"after register_person_avatar insert!")
+
+        if mysql_insert_resp["status"] == "failed":
+            raise pymysql.Error
+        # commit mysql record insertion(commit after all things done)
+        mysql_conn.commit()
+        logger.info(f"commit finished!")
+        return {"status":"success"}
+        
+    except Exception as excep:
+        msg = f"person with user_id {person_id} couldn't be registered into database "
+        logger.error("error: %s: %s", excep, msg)
         return {"status":"failed"}
 
 
@@ -195,10 +239,11 @@ def register_person_face(
     Detects faces in image from the file_path and
     saves the face feature vector & the related person_data dict.
     """
+    mysql_conn = get_connection()
     # uniq person id from user input
-    person_id = person_data["id"]
+    person_id = person_data["user_id"]
     # check if this person id already exists in redis/mysql
-    existed =  get_registered_person(person_id, table)["status"] == "success"
+    existed = "person_data" in get_registered_person(person_id, table, mysql_conn)
     try:
         # extract the feature and get the recognition
         pred_dict = run_inference(
@@ -229,13 +274,13 @@ def register_person_face(
         # tip: the vector may not exists for the avatar is more fast
         if existed:
             try:
-                expr = f'person_id in [{person_id}]'
+                expr = f'person_id in ["{person_id}"]'
                 milvus_collec_conn.delete(expr)
             except Exception:
                 pass
         # then insert the new vector
         milvus_collec_conn.insert(data)
-        logger.info(f"Vector for person with id: %s inserted into milvus db.",
+        logger.info("Vector for person with id: %s inserted into milvus db.",
               person_id)
         # After final entity is inserted, it is best to call flush to have no growing segments left in memory
         # flushes collection data from memory to storage
@@ -267,11 +312,11 @@ def register_person(
 
     mysql_conn = get_connection()
     # uniq person id from user input
-    person_id = person_data["id"]
+    person_id = person_data["user_id"]
     # check if face already exists in redis/mysql
-    if get_registered_person(person_id, table)["status"] == "success":
+    if "person_data" in get_registered_person(person_id, table):
         # if so, update the avatar
-        return update_avatar_url_in_sql(mysql_conn, table, person_id, avatar_path)
+        return update_default_avatar_url_in_sql(mysql_conn, table, person_id, avatar_path)
 
     # extract the feature and get the recognition
     pred_dict = run_inference(
@@ -303,7 +348,7 @@ def register_person(
         data = [[person_id], [face_vector]]
         print(data)
         milvus_collec_conn.insert(data)
-        print(f"Vector for person with id: %s inserted into milvus db.",
+        print("Vector for person with id: %s inserted into milvus db.",
               person_id)
         # After final entity is inserted, it is best to call flush to have no growing segments left in memory
         # flushes collection data from memory to storage
@@ -376,7 +421,7 @@ def recognize_person(
             logger.info("no similar faces were found in the database")
         else:
             logger.info(f"detected face matches id: {person_id}")
-            person_avatar_info = get_person_avatar(person_id, table)
+            person_avatar_info = get_person_default_avatar(person_id, table)
 
             if person_avatar_info["status"] == "success":
                 avatars_registered.append(
@@ -432,7 +477,7 @@ def test_register():
     for f in range(len(in_face)):
         register_person(
             model_name=models[0], face_path=in_face[f], avatar_path=in_avatar[f],
-            face_det_threshold=0.5, person_data={"id": f}
+            face_det_threshold=0.5, person_data={"user_id": f}
         )
 
 

@@ -40,7 +40,7 @@ MYSQL_HOST = os.getenv("MYSQL_HOST", default="127.0.0.1")
 MYSQL_PORT = int(os.getenv("MYSQL_PORT", default="3306"))
 MYSQL_USER = os.getenv("MYSQL_USER", default="root")
 MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", default="root")
-MYSQL_DATABASE = os.getenv("MYSQL_DATABASE", default="xface")
+MYSQL_DATABASE = os.getenv("MYSQL_DATABASE", default="xface_v2")
 MYSQL_PERSON_TABLE = os.getenv("MYSQL_PERSON_TABLE", default="person")
 # table where ops will be run on
 MYSQL_CUR_TABLE = os.getenv("MYSQL_CUR_TABLE", default=MYSQL_PERSON_TABLE)
@@ -52,7 +52,7 @@ MILVUS_PORT = int(os.getenv("MILVUS_PORT", default="19530"))
 FACE_VECTOR_DIM = 2622
 FACE_METRIC_TYPE = "L2"
 FACE_INDEX_TYPE = "IVF_FLAT" #IVF_PQ  may be best
-FACE_COLLECTION_NAME = 'faces'
+FACE_COLLECTION_NAME = 'faces_v2'
 # num of clusters/buckets for each index specific to IVF_FLAT
 FACE_INDEX_NLIST = 4096
 # nprobe specific to IVF denotes num of closest buckets/clusters looked into per file
