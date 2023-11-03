@@ -209,8 +209,26 @@ async def recognize_faces(user_id: str, img: UploadFile, response: Response):
     finally:
         if os.path.isfile(cache_path):
             # delete the cache file
+            # face_pos = res["avatar_pairs"][0]["pos"] 
+            # in_path = cache_path
+            # out_path = os.path.join(DOWNLOAD_CACHE_PATH,"temp.png")
+            # draw(face_pos,in_path,out_path)
             os.remove(cache_path)
     return res
+
+def draw(face_pos,in_path,out_path):
+    import cv2
+
+    # 读取输入图像
+    image = cv2.imread(in_path)
+
+    # 绘制矩形框
+    x, y, w, h = face_pos[0],face_pos[1],face_pos[2],face_pos[3]
+
+    cv2.rectangle(image, (x,y), (x+w, y+h), (0, 0, 255), 2)
+
+    # 保存输出图像
+    cv2.imwrite(out_path, image)
 
 
 app.mount("/", StaticFiles(directory="dist"), name="static")

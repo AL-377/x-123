@@ -13,7 +13,7 @@ SERVER_PORT = os.getenv("SERVER_PORT",default="8000")
 
 # save directories
 DOWNLOAD_AVATAR_PATH = os.getenv("DOWNLOAD_AVATAR_PATH",default="volumes/avatars")
-DOWNLOAD_CACHE_PATH = os.getenv('DOWNLOAD_CACHE_PATH', default="app/.data")
+DOWNLOAD_CACHE_PATH = os.getenv('DOWNLOAD_CACHE_PATH', default="app/data")
 LOG_STORAGE_PATH = os.getenv("LOG_STORAGE_PATH", default="volumes/server_logs")
 
 os.makedirs(DOWNLOAD_AVATAR_PATH,exist_ok=True)
