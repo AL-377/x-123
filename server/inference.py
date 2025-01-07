@@ -154,6 +154,7 @@ def run_inference(face_path, face_feat_model, face_det_thres,
                 try:
                     left_eye = retina_res[rface]["landmarks"]["left_eye"]
                     right_eye = retina_res[rface]["landmarks"]["right_eye"]
+                    nose = retina_res[rface]["landmarks"]["nose"]
                     if retina_res[rface]["score"] >= face_det_thres:
                         filtered_retina_res.append(retina_res[rface])
                 except Exception:
@@ -170,8 +171,19 @@ def run_inference(face_path, face_feat_model, face_det_thres,
                 for r in filtered_retina_res:
                     x,y = r["facial_area"][0],r["facial_area"][1]
                     if b_x == x and b_y == y:
-                        angle = alignment_procedure(r["landmarks"]["left_eye"],r["landmarks"]["right_eye"])
-                        res["face_boxes"][i]["angle"] = angle
+                        new_face_pos , angle = alignment_procedure(
+                            r["landmarks"]["left_eye"],
+                            r["landmarks"]["right_eye"],
+                            r["landmarks"]["nose"],
+                            [b["x"],b["y"],b["w"],b["h"]]
+                        )
+                        res["face_boxes"][i] = {
+                            "x":new_face_pos[0],
+                            "y":new_face_pos[1],
+                            "w":new_face_pos[2],
+                            "h":new_face_pos[3],
+                            "angle":angle
+                        }
                         flag = True
                         logger.info(f"cal face angle: {angle}")
                         break
